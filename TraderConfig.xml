@@ -142,7 +142,6 @@
 		BloodTestKit,			*,		200,	50
 		FirstAidKit,			*,      500,	200
 		MSFC_FirstAidKit,	    *,		500,	150
-		ToxicCure,            *,        1000,        300
 		
 		
 	<Category> Medications
@@ -757,12 +756,6 @@
 		FlashGrenade,			1,		800,	300
 		RGD5Grenade,			1,		1200,	350
 		M67Grenade,				1,		1200,	350
-		ToxicM18SmokeGrenade_Green,    *,        1500,        500
-        ToxicM18SmokeGrenade_Red,    *,        1500,        500
-        ToxicM18SmokeGrenade_Green,    *,        1500,        500
-        ToxicM18SmokeGrenade_Purple,    *,        1500,        500
-        ToxicM18SmokeGrenade_Yellow,    *,        1500,        500
-        ToxicM18SmokeGrenade_White,    *,        1500,        500
 		
 
 		
@@ -1244,24 +1237,30 @@
 		DesignerGlasses,		*,		30,		25
 		AviatorGlasses,			*,		40,		30
 		TacticalGoggles,		*,		60,		45
-		NVGHeadstrap,			*,		200,	150		
-		
+		NVGHeadstrap,			*,		200,	150
+				
 	<Category> SQUAD MSF-C Multicam
-        MSFCBeanieHatMulticam,	*,		        100,		65		
+        MSFCBeanieHatMulticam,	*,		        100,		65
+		MSFCBoonieHatMulticam,	*,		        100,		65
 		MSFCBeanieHatMulticamTropic,	*,		100,		65
-		
+		MSFCBoonieHatMulticamTropic,	*,		100,		65
+		MSFCCapMulticamTropic,	*,		        100,		65
+		MSFCNBCGlovesMulticamTropic,	*,		200,		100
+        MSFC_TacticalCap_MulticamTropic,	*,	200,		100
+		MSFCGlovesMulticamTropic,	*,		200,		100
         MSFC_BottlePouch_Multicam,	*,		200,		100
-        
+		MSFC_TacticalCap_Multicam,	*,		200,		100
+        MSFCNBCBootsMulticam,	*,		        200,		100
         MSFCGorkaPMulticam,	*,		        200,		100
         MSFC_BottlePouch_MulticamTropic,	*,	200,		100
-        
+        MSFCGlovesMulticam,	*,		        250,		150
         MSFCLowaZephyrBootsMulticam,	*,		250,		200
         MSFCBootsLowaMulticam,	*,		        250,		200	
         MSFCBootsTrekkingMulticam,	*,		250,		200
         MSFCBootsLowaMulticamTropic,	*,		250,		200
         MSFCBandanaMulticamTropic,	*,		350,		150
         MSFCBandanaMulticamTropicMask,	*,		350,		150
-        
+        MSFCNBCPantsMulticamTropic,	*,		350,		150
         MSFCTShirtMulticamTropic,	*,		300,		200
         MSFCSweaterMulticamTropic,	*,		300,		200
         MSFCSweaterMulticam,	*,		        300,		200
@@ -1270,7 +1269,7 @@
 		MSFCGorkaPMulticamTropic,	*,		350,		200
         MSFC_G3Pants_MulticamTropic,	*,		350,		200
         MSFCPantsMulticam,	*,		        350,		200
-
+        MSFCCapMulticam,	*,		        350,		200
 		MSFCGorkaJMulticam,	*,		        350,		200
         MSFCMulticamTropicMask,	*,		        400,		150
         MSFCMulticamMask,	*,		        400,		150
@@ -1282,7 +1281,7 @@
         MSFC_SMALL_BACKPACK_MulticamTropic,	*,      400,		250
         MSFCSmershBagMedicMulticam,	*,		400,		250	
 		MSFC_SMALL_BACKPACK_Multicam,	*,		400,		250		
-        
+        MSFCNBCJacketMulticamTropic,	*,		450,		250
         MSFCTacticalMaskMulticamTropic,	*,		450,		250
         MSFCAssaultBagMulticamTropic,	*,		450,		350
 		MSFCAssaultBagMulticamTropicMedic,	*,	450,		350
@@ -1361,12 +1360,13 @@
         MSFCPlateCarrierVestMulticamTropicLogo,	*,	3600,		1500	
 		
 	<Category> SQUAD MSF-C SURPAT
-		
+		MSFCCapSURPAT,	*,		                100,		65 
 		MSFCBeanieHatSURPAT,	*,		        100,		65
-		
-	   
+		MSFCBoonieHatSURPAT,	*,		        100,		65
+	    MSFCNBCGlovesSURPAT,	*,		        150,		100
+		MSFCNBCBootsSURPAT,	*,		        200,		100
 		MSFC_BottlePouch_SURPAT,	*,		200,		100
-		
+		MSFC_TacticalCap_SURPAT,	*,		200,		100
 		MSFCGlovesSURPAT,	*,		        200,		100
 		MSFCBootsSURPAT,	*,		        250,		150
 		MSFCBootsLowaSURPAT,	*,		        250,		200
@@ -1379,7 +1379,7 @@
 		MSFCGorkaPSURPAT,	*,		        350,		200
 		MSFCBandanaSURPAT,	*,		        350,		150
 		MSFCBandanaSURPATMask,	*,		        350,		150
-		
+		MSFCNBCPantsSURPAT,	*,		        350,		150
 		MSFC_G3Pants_SURPAT,	*,		        350,		200	
 		MSFCSURPATMask,	*,		                400,		150
 		MSFCSmershBagSURPAT,	*,		        400,		250
@@ -1389,7 +1389,7 @@
 		MSFC_SMALL_BACKPACK_SURPAT,	*,		400,		250
 		MSFCAssaultBagSURPAT,	*,		        450,		350
 		MSFCAssaultBagSURPATMedic,	*,		450,		65
-		
+		MSFCNBCJacketSURPAT,	*,		        450,		250
 		MSFCTacticalMaskSURPAT,	*,		        450,		250
 		MSFCHoodSURPAT,	*,		                500,		250
 		MSFCPlateHolsterSURPAT,	*,		        500,		250
@@ -1437,26 +1437,30 @@
 		
 	
 	<Category> SQUAD MSF-C Other Clothes
-
+	    MSFCCapMulticamBlack,	*,		100,		65
 		MSFCTShirtMulticamBlack,	*,		100,		65
-
-
+		MSFC_TacticalCap_Green,	        *,		100,		35
+		MSFC_TacticalCap_Black,	        *,		100,		35
+		MSFC_TacticalCap_Desert,	    *,		100,		35
+	 MSFCRussianMilitaryCap,	         *,		100,		35
+	 MSFCFlecktarnCap,	             *,		100,		65
+	 MSFCBlackTekStoCap,	            *,		100,		65
 	 MSFC_TacticalGoggles_Green,	    *,		100,		65
 		MSFC_TacticalGoggles_Desert,	*,		100,		65
 		MSFC_TacticalGoggles_Gray,	    *,		100,		65
 		MSFC_TacticalGoggles_White,	    *,		100,		65
 		MSFCHEADPHONES,	                 *,		200,		50
-			MSFCBlackCamoBoots,	             *,		200,		150
-			MSFCFlecktarnBoots,	             *,		200,		150
+		MSFCBlackCamoBoots,	             *,		200,		150
+		MSFCFlecktarnBoots,	             *,		200,		150
 		MSFCFlecktarnGloves,	         *,		200,		150
-	MSFCDigitalNavyGloves,	        *,		200,		100	
-	MSFCDigitalNavyBoots,	        *,		200,		150
-	MSFCBlackTekStoBoots,	        *,		200,		150
-	MSFCBlackTekStoGloves,	        *,		200,		100
+		MSFCDigitalNavyGloves,	        *,		200,		100	
+		MSFCDigitalNavyBoots,	        *,		200,		150
+		MSFCBlackTekStoBoots,	        *,		200,		150
+		MSFCBlackTekStoGloves,	        *,		200,		100
 		MSFCRussianMilitaryGloves,	    *,		200,		100
 		MSFCACUGloves,	                *,		200,		100
 		MSFCRussianMilitaryBoots,	     *,		200,		150
-		 MSFCTacticalBeardBlack,	        *,		200,		50
+			 MSFCTacticalBeardBlack,	        *,		200,		50
         MSFCTacticalBeardGray,	        *,		200,		50
         MSFCTacticalBeardBlonde,	    *,		200,		50
         MSFCTacticalBeardBrown,	        *,		200,		50
@@ -1894,17 +1898,19 @@
         MSFC_GPNVG18_Black,	            *,		5000,		1500
         MSFC_GPNVG18_Green,	            *,		5000,		1500
 		MSFCOpsCoreNVG,	                *,		5000,		1500
-		
+			
 	<Category> SQUAD MSF-C Multicam Black
-		MSFCBeanieHatMulticamBlack,	*,		        100,		65		
-		MSFCTShirtMulticamBlack,	*,		        100,		65		
+		MSFCBeanieHatMulticamBlack,	*,		        100,		65
+		MSFCBoonieHatMulticamBlack,	*,		        100,		65
+		MSFCTShirtMulticamBlack,	*,		        100,		65
+		MSFCCapMulticamBlack,	*,		            100,		65
 		MSFCBandanaMulticamBlack,	*,		        100,		65
 		MSFCBandanaMulticamBlackMask,	*,	        100,		65
 		MSFCGlovesMulticamBlack,	*,		        200,		100
-		
+		MSFCNBCGlovesMulticamBlack,	*,		        200,		100
 	    MSFC_BottlePouch_MulticamBlack,	*,	        200,		100
 		MSFCSweaterMulticamBlack,	*,		        250,		100
-		
+		MSFCNBCBootsMulticamBlack,	*,		        250,		100
 		MSFCBootsLowaMulticamBlack,	*,		        250,		100
 		MSFCBootsTrekkingMulticamBlack,	*,	        250,		100
 		MSFCLowaZephyrBootsMulticamBlack,*,	        200,		150
@@ -1912,7 +1918,7 @@
 		MSFCBootsMulticamBlack,	*,		            300,		100
 	    MSFCPlateHolsterMulticamBlack,	*,	        300,		150
 	    MSFC_G3Pants_MulticamBlack,	*,		        350,		150
-		
+		MSFCNBCPantsMulticamBlack,	*,		        350,		150
 	    MSFCPCU5MulticamBlackNoPatch,	*,	        350,		150
         MSFCAssaultBagMulticamBlackMedic,*,	        350,		150
 	    MSFCGorkaJMulticamBlackNoPatch,	*,	        350,		150
@@ -1921,7 +1927,7 @@
 	    MSFCSmershBagMedicMulticamBlack,*,	        450,		200	
 	    MSFCSmershBagMedicMulticamBlack,*,	        450,		200	
 	    MSFCAssaultBagMulticamBlack,	*,	        450,		350
-	  	
+	  	MSFCNBCJacketMulticamBlack,	*,		        450,		250
         MSFC_IFAK_MulticamBlack,	*,		        500,		150
 	    MSFCGorkaJMulticamBlack,	*,		        500,		200
 		MSFCGorkaPMulticamBlack,	*,		        500,		200
@@ -1969,24 +1975,25 @@
 		
 	<Category> SQUAD MSF-C A-TACS FG
 		
-		
+		MSFCCapATACSFG,	*,		            100,		35
+		MSFC_TacticalCap_ATACSFG,	*,		100,		65
 		MSFCTShirtATACSFG,	*,		        100,		65
 		MSFCBeanieHatATACSFG,	*,		    100,		65
-		
+		MSFCBoonieHatATACSFG,	*,		    100,		65
 		MSFCBandanaATACSFG,	*,		        100,		65
 		MSFCBandanaATACSFGMask,	*,		    100,		65
 		MSFCGlovesATACSFG,	*,		        200,		100
-		
+		MSFCNBCGlovesATACSFG,	*,		    200,		100
 		MSFCLowaZephyrBootsATACSFG,	*,		200,		100
 		MSFC_BottlePouch_ATACSFG,	*,		200,		100
 		MSFCBootsLowaATACSFG,	*,	     	200,		150
 		MSFCBootsTrekkingATACSFG,	*,		200,		150
-		
+		MSFCNBCBootsATACSFG,	*,		    250,		100
 		MSFCSweaterATACSFG,	*,		        250,		100
 	    MSFCEmpty_Mags_Bag_ATACSFG,	*,		300,		100
 		MSFCBootsATACSFG,	*,		        300,		100
 		MSFCPlateHolsterATACSFG,	*,		300,		150
-		
+		MSFCNBCPantsATACSFG,	*,		    350,		150
 		MSFCAssaultBagATACSFGMedic,	*,		350,		150
 		MSFCPCU5ATACSFGNoPatch,	*,		    350,		150
 		MSFCGorkaJATACSFGNoPatch,	*,		350,		150
@@ -1995,7 +2002,7 @@
 		MSFC_SMALL_BACKPACK_ATACSFG,	*,	400,		200
 		MSFCSmershBagMedicATACSFG,	*,		450,		200
 		MSFCAssaultBagATACSFG,	*,		    450,		350
-		
+		MSFCNBCJacketATACSFG,	*,		    450,		250
 		MSFCTacticalMaskATACSFG,	*,		500,		200
 		MSFC_IFAK_ATACSFG,	*,		        500,		200
 		MSFCGorkaJATACSFG,	*,		        500,		200
@@ -2206,9 +2213,21 @@
 		TacticalGloves_Beige,	*,		35,		30
 		TacticalGloves_Black,	*,		35,		30
 		TacticalGloves_Green,	*,		35,		30
+		MSFCGlovesMulticamTropic,	*,	35,		30
+        MSFCGlovesMulticam,	*,		    35,		30
+		MSFCGlovesSURPAT,	*,		    35,		30
+		MSFCFlecktarnGloves,	    *,	35,		30
+		MSFCDigitalNavyGloves,	    *,	35,		30	
+		MSFCBlackTekStoGloves,	    *,	35,		30
+		MSFCRussianMilitaryGloves,  *,	35,		30
+		MSFCACUGloves,	            *,	35,		30
+		MSFCBlackCamoGloves,	    *,	35,		30
+		MSFCGlovesMulticamBlack,	*,  35,		30
+		MSFCGlovesATACSFG,	*,		    35,		30
+		MSFCSTALKEREcologGloves,	*,	35,		30
 		OMNOGloves_Gray,		*,		40,		35
 		OMNOGloves_Brown,		*,		40,		35
-
+		NBCGlovesGray,			*,		65,		50
 
 	<Category> Hats & Caps
 		MedicalScrubsHat_Blue,	*,		10,		5
@@ -2239,12 +2258,6 @@
 		BoonieHat_DPM,			*,		30,		20
 		BoonieHat_Dubok,		*,		30,		20
 		BoonieHat_Flecktran,	*,		30,		20
-		MSFCBoonieHatMulticam,	*,		        30,		25
-		MSFCBoonieHatMulticamTropic,	*,		30,		25
-		MSFCBoonieHatSURPAT,	*,		        30,		25
-		MSFCBoonieHatMulticam,	*,		    30,		25
-		MSFCBoonieHatMulticamBlack,	*,		        30,		25
-		MSFCBoonieHatATACSFG,	*,		    30,		25
 		CowboyHat_Brown,		*,		30,		20
 		CowboyHat_darkBrown,	*,		30,		20
 		CowboyHat_black,		*,		30,		20
@@ -2265,6 +2278,11 @@
 		BeanieHat_Brown,		*,		30,		25
 		BeanieHat_Black,		*,		30,		25
 		BeanieHat_Green,		*,		30,		25
+	    MSFCBeanieHatMulticam,	*,		30,		65
+		MSFCBeanieHatMulticamTropic, *, 30,	    65
+		MSFCBeanieHatSURPAT,	*,	    30,		65
+		MSFCBeanieHatMulticamBlack,	*,  30,		65
+		MSFCBeanieHatATACSFG,	*,		30,		65
 		FlatCap_Red,			*,		30,		25
 		FlatCap_Blue,			*,		30,		25
 		FlatCap_BrownCheck,		*,		30,		25
@@ -2286,24 +2304,7 @@
 		Ushanka_Blue,			*,		50,		45
 		Ushanka_Black,			*,		50,		45
 		Ushanka_Green,			*,		55,		50
-		
-		MSFCCapMulticamTropic,	*,		        100,		65
-        MSFC_TacticalCap_MulticamTropic,	*,	200,		100
-        MSFC_TacticalCap_Multicam,	*,		200,		100
-        MSFCCapMulticam,	*,		        350,		200
-        MSFCCapSURPAT,	*,		                100,		65 
-        MSFC_TacticalCap_SURPAT,	*,		200,		100
-        MSFCCapMulticamBlack,	*,		100,		65    
-        MSFC_TacticalCap_Green,	        *,		100,		35
-        MSFC_TacticalCap_Black,	        *,		100,		35
-		MSFC_TacticalCap_Desert,	    *,		100,		35
-	    MSFCRussianMilitaryCap,	         *,		100,		35
-	    MSFCFlecktarnCap,	             *,		100,		65
-	    MSFCBlackTekStoCap,	            *,		100,		65
-        MSFCCapMulticamBlack,	*,		            100,		65
-        MSFCCapATACSFG,	*,		            100,		35
-		MSFC_TacticalCap_ATACSFG,	*,		100,		65
-        
+		NBCHoodGray,			*,		100,	95
 
 	<Category> Helmets
 		ConstructionHelmet_Yellow,*,	30,	    25
@@ -2526,7 +2527,7 @@
 		GorkaEJacket_Summer,	*,		140,	90
 		USMCJacket_Desert,		*,		140,	90
 		USMCJacket_Woodland,	*,		155,	100
-	
+		NBCJacketGray,			*,		250,	120
 
 	<Category> Skirts & Dresses
 		Skirt_Yellow,			*,		30,		10
@@ -2623,7 +2624,7 @@
 		GorkaPants_PautRev,		*,		130,	70
 		GorkaPants_Autumn,		*,		130,	70
 		GorkaPants_Summer,		*,		130,	70
-	
+		NBCPantsGray,			*,		200,	100
 	
 	<Category> Shoes & Boots
 		AthleticShoes_Blue,		*,		15,	   10
@@ -2677,7 +2678,7 @@
 		MilitaryBoots_Beige,	*,		110,   50
 		MilitaryBoots_Brown,	*,		110,   50
 		MilitaryBoots_Black,	*,		110,   50
-		
+		NBCBootsGray,			*,		150,   80
 
 		
 	//<Category> Seasonal
@@ -2841,24 +2842,6 @@
 		stonepot,                *,               -1,     100
 		bonehatchet,            *,               -1,    350
 		StoneShovel,            *,               -1,    400
-
-	<Category> NBC & Toxic Zone Clothing
-        NBCGlovesGray,			*,		65,		50
-        NBCHoodGray,			*,		100,	95
-        NBCJacketGray,			*,		250,	120
-        NBCPantsGray,			*,		200,	100
-        NBCBootsGray,			*,		150,   80
-		ToxicZoneGP5GasMask_black,    *,        1000,        300
-        ToxicZoneSuits_Hood_black,    *,        1000,        300
-        ToxicZoneSuits_Hood_yellow,    *,        1000,        300
-        ToxicZoneSuits_Gloves_black,    ,        1000,        300
-        ToxicZoneSuits_Gloves_yellow,,        1000,        300
-        ToxicZoneSuits_Jacket_yellow,*,        1000,        300
-        ToxicZoneSuits_Jacket_black,    *,        1000,        300
-        ToxicZoneSuits_Pants_yellow,    *,        1000,        300
-        ToxicZoneSuits_Pants_black,    *,        1000,        300
-        ToxicZoneSuits_Boots_yellow,    *,        1000,        300
-        ToxicZoneSuits_Boots_black,    *,        1000,        300
 	
 	
 	 
