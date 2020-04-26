@@ -59,7 +59,7 @@
 		BakedBeansCan,			*,		35,		20
 		TacticalBaconCan,		*,		35,		20		
 		
-       <Category> Meat
+    <Category> Meat
 		ChickenBreastMeat,		S,		200,		100
 		GoatSteakMeat,			S,		200,		100
 		SheepSteakMeat,			S,		200,		100
@@ -70,60 +70,57 @@
 		CowSteakMeat,			S,		200,		100	
 		Sardines,		        S,		200,		100
 		Carp,			        S,		200,		100
-		Mackerel,			S,		200,		100
+		Mackerel,			    S,		200,		100
 
 	<Category> Animal Parts
+	    Bone,                    *,        300,        250
+        Lard,                    *,        300,        250
 
-	 Bone,                    *,        300,        250
-         Lard,                    *,        300,        250
-
-       <Category> Pelts
-        
-      WildboardPelt,           *,      700,            600
-      RabbitPelt,              *,      500,            400 
-      CowPelt,                 *,      1000,           800
-      PigPelt,                *,       750,            600
-      DeerPelt,               *,       1300,            1000
-      GoatPelt,               *,       700,            600
-      BearPelt,               *,       2000,           1700
-      WolfPelt,                 *,      1500,           1300
-      SheepPelt,              *,       700,             600
-      MouflonPelt,            *,       700,             600
-      FoxPelt,                 *,      700,             600
+     <Category> Pelts        
+      	RabbitPelt,             *,      500,            400  
+     	PigPelt,                *,      750,            600
+     	GoatPelt,               *,      700,            600
+     	SheepPelt,              *,      700,            600
+     	MouflonPelt,            *,      700,            600
+	 	WildboarPelt,           *,      700,            600
+     	FoxPelt,                *,      700,            600
+	 	CowPelt,                *,      1000,           800
+	 	DeerPelt,               *,      1300,           1000
+	 	WolfPelt,               *,      1500,           1300
+	 	BearPelt,               *,      2000,           1700
 		
 	<Category> Drinks
-    MSFCBeerBaltika9,	        *,		25,		10
-	MSFCBeerZhigulevskoeSoviet,	*,		25,		10
-	MSFCBeerZhigulevskoeBarnoe,	*,		25,		10
-	MSFCBankaSPRUNKextreme,	    *,		25,		10
-	MSFCBankaSPRUNK,	        *,		25,		10
-	MSFCBankaCJ,	            *,		25,		10
-	MSFCBankaSTALKEREnergy,	    *,		25,		10
-	MSFCBankaBeerFranziskanerWeissbier,*,25,	10
-	MSFCBankaBeerHeineken,	    *,		25,		10
-	MSFCBankaBaikal,	        *,		25,		10
-	MSFCBankaBeerPivasProvodnik,*,	    25,		10
-		MSFCBankaBeerAmsterdam,	*,		25,		10
-		SodaCan_Cola, 			*,		25, 	10
-		SodaCan_Kvass, 			*,		25, 	10
-		SodaCan_Pipsi, 			*,		25,     10
-		MSFCBeerZhigulevskoe,	*,		25,		10
-		SodaCan_Spite, 			*,		25, 	10
-	MSFCBankaJackSmithWhiskey,	*,	    25,		10
-		WaterBottle,			*,		35,     10
-		Vodka,					*,	    35,	    10
-	   Canteen,				    *,      40,	    10
-	     MSFCCanteenATACSAU,	*,		50,		25
-	       MSFCCanteenATACSFG,	*,		100,	25
-    MSFCCanteenSURPATDesert,	*,	    100,	25
-		  MSFCCanteenSURPAT,	*,		100,	25
-	MSFCCanteenMulticamSnow,	*,	    100,	25
-	MSFCCanteenMulticamBlack,	*,	    100,	25
-	MSFCCanteenMulticamTropic,	*,	    100,	25
-	MSFCCanteenMulticam,	    *,		100,	25
-		MSFCCanteenDesert,	    *,		100,	25
-		MSFCCanteenGreen,	    *,		100,	25
-		MSFCCanteenBlack,	    *,		100,	25
+   	    MSFCBeerBaltika9,	        *,		25,		10
+		MSFCBeerZhigulevskoeSoviet,	*,		25,		10
+		MSFCBeerZhigulevskoeBarnoe,	*,		25,		10
+		MSFCBankaSPRUNKextreme,	    *,		25,		10
+		MSFCBankaSPRUNK,	        *,		25,		10
+		MSFCBankaCJ,	            *,		25,		10
+		MSFCBankaSTALKEREnergy,	    *,		25,		10
+		MSFCBankaBeerFranziskanerWeissbier,*,25,	10
+		MSFCBankaBeerHeineken,	    *,		25,		10
+		MSFCBankaBaikal,	        *,		25,		10
+		MSFCBankaBeerPivasProvodnik,*,	    25,		10
+		MSFCBankaBeerAmsterdam,	*,		    25,		10
+		SodaCan_Cola, 			*,		    25, 	10
+		SodaCan_Kvass, 			*,	    	25, 	10
+		SodaCan_Pipsi, 			*,	    	25,     10
+		MSFCBeerZhigulevskoe,	*,	    	25,		10
+		SodaCan_Spite, 			*,	    	25, 	10
+		MSFCBankaJackSmithWhiskey,	*,	    25,		10
+		WaterBottle,			*,		    35,     10
+		Vodka,					*,	        35,	    10
+	    Canteen,				    *,      50,	    10
+	    MSFCCanteenATACSAU,	*,		        50,		25
+	    MSFCCanteenATACSFG,	*,		        50,	    25
+        MSFCCanteenSURPATDesert,	*,	    50, 	25
+     	MSFCCanteenSURPAT,	*,		        50, 	25
+	    MSFCCanteenMulticamBlack,	*,	    50,	    25
+	    MSFCCanteenMulticamTropic,	*,	    50,  	25
+	    MSFCCanteenMulticam,	    *,		50,	    25
+		MSFCCanteenDesert,	    *,		    50,	    25
+		MSFCCanteenGreen,	    *,		    50,	    25
+		MSFCCanteenBlack,	    *,		    50,	    25
 	
 			
 	<Category> Medical Supplies
@@ -587,190 +584,135 @@
 	
 	
 <Trader> Clothing Trader
-	<Category> Glasses & Night Vision
-		SportGlasses_Orange,	*,		20,		10
-		SportGlasses_Blue,		*,		20,		10
-		SportGlasses_Black,		*,		20,		10
-		SportGlasses_Green,		*,		20,		10
-		ThinFramesGlasses,		*,		20,		10
-		ThickFramesGlasses,		*,		25,		15
-		DesignerGlasses,		*,		30,		25
-		AviatorGlasses,			*,		40,		30
-		TacticalGoggles,		*,		60,		45
-		NVGHeadstrap,			*,		200,	150
-		MSFC_BC_NVG21,	                *,		350,		150
-		MSFC_GPNVG18_Desert,	        *,		5000,		1500
-        MSFC_GPNVG18_Black,	            *,		5000,		1500
-        MSFC_GPNVG18_Green,	            *,		5000,		1500
-		MSFCOpsCoreNVG,	                *,		5000,		1500		
-
-	<Category> Patches
-		MSFC_HelmetPatch_MSFC,	        *,		800,		200
-        MSFC_HelmetPatch_RU,	        *,		800,		200
-        MSFC_HelmetPatch_BY,	        *,		800,		200
-        MSFC_HelmetPatch_UA,	        *,		800,		200
-        MSFC_HelmetPatch_DE,	        *,		800,		200
-        MSFC_HelmetPatch_US,	        *,		800,		200
-		MSFC_HelmetPatch_Chernarus,	    *,		800,		200
-		MSFC_HelmetPatch_FSB,	        *,		800,		200
-		MSFC_HelmetPatch_MAMA_IM_SPEC,	*,		800,		200
-		MSFC_HelmetPatch_MEDIC_EN,	    *,		800,		200
-		MSFC_HelmetPatch_MEDIC_RU,	    *,		800,		200
-		MSFC_HelmetPatch_MSFC_TEXT,	    *,		800,		200
-		MSFC_HelmetPatch_POEHAVSHY,	    *,		800,		200
-		MSFC_HelmetPatch_SBCH,	        *,		800,		200
-		MSFC_HelmetPatch_SOFA_ARMY_RF,	*,		800,		200
-		MSFC_HELMETPATCH_BENDER,	    *,		800,		200
-		MSFC_HelmetPatch_Afghanistan,	*,		800,		200
-		MSFC_HelmetPatch_Australia,	*,		800,		200
-		MSFC_HelmetPatch_Austria,	*,		800,		200
-		MSFC_HelmetPatch_Belgium,	*,		800,		200
-		MSFC_HelmetPatch_Canada,	*,		800,		200
-		MSFC_HelmetPatch_Croatia,	*,		800,		200
-		MSFC_HelmetPatch_Czech,	*,				800,		200
-		MSFC_HelmetPatch_DANGER,	*,		800,		200
-		MSFC_HelmetPatch_Denmark,	*,		800,		200
-		MSFC_HelmetPatch_Estonia,	*,		800,		200
-		MSFC_HelmetPatch_Finland,	*,		800,		200
-		MSFC_HelmetPatch_France,	*,		800,		200
-		MSFC_HelmetPatch_Greece,	*,		800,		200
-		MSFC_HelmetPatch_Hungary,	*,		800,		200
-		MSFC_HelmetPatch_Irland,	*,		800,		200
-		MSFC_HelmetPatch_Island,	*,		800,		200
-		MSFC_HelmetPatch_Israel,	*,		800,		200
-		MSFC_HelmetPatch_Italy,	*,		800,		200
-		MSFC_HelmetPatch_Japan,	*,		800,		200
-		MSFC_HelmetPatch_Netherlands,	*,		800,		200
-		MSFC_HelmetPatch_Norway,	*,		800,		200
-		MSFC_HelmetPatch_Poland,	*,		800,		200
-		MSFC_HelmetPatch_Portugal,	*,		800,		200
-		MSFC_HelmetPatch_Puerto,	*,		800,		200
-		MSFC_HelmetPatch_SA,	*,		800,		200
-		MSFC_HelmetPatch_Scotland,	*,		800,		200
-		MSFC_HelmetPatch_Sweden,	*,		800,		200
-		MSFC_HelmetPatch_Switzerland,*,		800,		200
-		MSFC_HelmetPatch_Thailand,	*,		800,		200
-		MSFC_HelmetPatch_Turkey,	*,		800,		200
-		MSFC_HelmetPatch_UK,	*,		800,		200
-		MSFC_HelmetPatch_UN,	*,		800,		200
-		MSFC_HelmetPatch_715,	*,		800,		200
-
-
-
-	<Category> Armbands
-		Armband_Pink,			*,		30,		15
-		Armband_Yellow,			*,		30,		15
-		Armband_Orange,			*,		30,		15
-		Armband_Red,			*,		30,		15
-		Armband_Blue,			*,		30,		15
-		Armband_White,			*,		30,		15
-		Armband_Black,			*,		30,		15
-		Armband_Green,			*,		30,		15
-		
-	<Category> Gloves
-		SurgicalGloves_LightBlue,*,		15,		10
-		SurgicalGloves_Blue,	*,		15,		10
-		SurgicalGloves_White,	*,		15,		10
-		SurgicalGloves_Green,	*,		15,		10
-		WorkingGloves_Yellow,	*,		25,		20
-		WorkingGloves_Beige,	*,		30,		25
-		WorkingGloves_Brown,	*,		30,		25
-		WorkingGloves_Black,	*,		30,		25
-		TacticalGloves_Beige,	*,		35,		30
-		TacticalGloves_Black,	*,		35,		30
-		TacticalGloves_Green,	*,		35,		30
-		MSFCGlovesMulticamTropic,	*,	35,		30
-        MSFCGlovesMulticam,	*,		    35,		30
-		MSFCGlovesSURPAT,	*,		    35,		30
-		MSFCFlecktarnGloves,	    *,	35,		30
-		MSFCDigitalNavyGloves,	    *,	35,		30	
-		MSFCBlackTekStoGloves,	    *,	35,		30
-		MSFCRussianMilitaryGloves,  *,	35,		30
-		MSFCACUGloves,	            *,	35,		30
-		MSFCBlackCamoGloves,	    *,	35,		30
-		MSFCGlovesMulticamBlack,	*,  35,		30
-		MSFCGlovesATACSFG,	*,		    35,		30
-		MSFCSTALKEREcologGloves,	*,	35,		30
-		OMNOGloves_Gray,		*,		40,		35
-		OMNOGloves_Brown,		*,		40,		35
-
-
-	<Category> Hats & Caps
-		MedicalScrubsHat_Blue,	*,		10,		5
-		MedicalScrubsHat_White,	*,		10,		5
-		MedicalScrubsHat_Green,	*,		10,		5
-		Bandana_Polkapattern,	*,		10,		5
-		Bandana_Redpattern,		*,		10,		5
-		Bandana_Blackpattern,	*,		10,		5
-		Bandana_Greenpattern,	*,		10,		5
-		Bandana_Camopattern,	*,		10,		5
-		BaseballCap_CMMG_Pink,	*,		15,		10
-		BaseballCap_Pink,		*,		15,		10
-		BaseballCap_Red,		*,		15,		10
-		BaseballCap_Blue,		*,		15,		10
-		BaseballCap_Beige,		*,		15,		10
-		BaseballCap_CMMG_Black,	*,		15,		10
-		BaseballCap_Black,		*,		15,		10
-		BaseballCap_Olive,		*,		15,		10
-		BaseballCap_Camo,		*,		20,		15
-		PrisonerCap,			*,		20,		15
-		BoonieHat_Orange,		*,		20,		15
-		BoonieHat_Red,			*,		20,		15
-		BoonieHat_Blue,			*,		20,		15
-		BoonieHat_NavyBlue,		*,		20,		15
-		BoonieHat_Black,		*,		20,		15
-		BoonieHat_Tan,			*,		20,		15
-		BoonieHat_Olive,		*,		20,		15
-		BoonieHat_DPM,			*,		30,		20
-		BoonieHat_Dubok,		*,		30,		20
-		BoonieHat_Flecktran,	*,		30,		20
-		CowboyHat_Brown,		*,		30,		20
-		CowboyHat_darkBrown,	*,		30,		20
-		CowboyHat_black,		*,		30,		20
-		CowboyHat_green,		*,		30,		20
-		PilotkaCap,				*,		35,		25
-		OfficerHat,				*,		35,		25
-		PoliceCap,				*,		35,		25
-		MilitaryBeret_ChDKZ,	*,		35,		25
-		MilitaryBeret_Red,		*,		35,		25
-		MilitaryBeret_UN,		*,		35,		25
-		MilitaryBeret_CDF,		*,		35,		25
-		MilitaryBeret_NZ,		*,		35,		25
-		BeanieHat_Pink,			*,		30,		25
-		BeanieHat_Red,			*,		30,		25
-		BeanieHat_Blue,			*,		30,		25
-		BeanieHat_Grey,			*,		30,		25
-		BeanieHat_Beige,		*,		30,		25
-		BeanieHat_Brown,		*,		30,		25
-		BeanieHat_Black,		*,		30,		25
-		BeanieHat_Green,		*,		30,		25
-	    MSFCBeanieHatMulticam,	*,		30,		65
-		MSFCBeanieHatMulticamTropic, *, 30,	    65
-		MSFCBeanieHatSURPAT,	*,	    30,		65
-		MSFCBeanieHatMulticamBlack,	*,  30,		65
-		MSFCBeanieHatATACSFG,	*,		30,		65
-		FlatCap_Red,			*,		30,		25
-		FlatCap_Blue,			*,		30,		25
-		FlatCap_BrownCheck,		*,		30,		25
-		FlatCap_GreyCheck,		*,		30,		25
-		FlatCap_Grey,			*,		30,		25
-		FlatCap_Brown,			*,		30,		25
-		FlatCap_Black,			*,		30,		25
-		FlatCap_BlackCheck,		*,		30,		25
-		ZmijovkaCap_Red,		*,		40,		35
-		ZmijovkaCap_Blue,		*,		40,		35
-		ZmijovkaCap_Brown,		*,		40,		35
-		ZmijovkaCap_Black,		*,		40,		35
-		ZmijovkaCap_Green,		*,		40,		35
-		RadarCap_Red,			*,		40,		35
-		RadarCap_Blue,			*,		40,		35
-		RadarCap_Brown,			*,		40,		35
-		RadarCap_Black,			*,		40,		35
-		RadarCap_Green,			*,		45,		40
-		Ushanka_Blue,			*,		50,		45
-		Ushanka_Black,			*,		50,		45
-		Ushanka_Green,			*,		55,		50
-
+	<Category> Bags
+		ChildBag_Red,			*,		20,		5
+		ChildBag_Blue,			*,		20,		5
+		ChildBag_Green,			*,		25,		6
+		DryBag_Yellow,			*,		30,		8
+		DryBag_Orange,			*,		30,		8
+		DryBag_Red,				*,		30,		8
+		DryBag_Blue,			*,		30,		8
+		DryBag_Black,			*,		35,		8
+		DryBag_Green,			*,		40,		10
+		TaloonBag_Orange,		*,		50,		10
+		TaloonBag_Violet,		*,		50,		10
+		TaloonBag_Blue,			*,		50,		10
+		TaloonBag_Green,		*,		70,		20
+		SmershBag,				*,		100,	30		
+        MSFCSmershBagMulticamTropic,	*,		400,		250        
+        MSFCSmershBagMedicMulticam,	*,		400,		250	        
+        MSFCSmershBagSURPAT,	*,		        400,		250
+		MSFCSmershBagMedicSURPAT,	*,		400,		250
+        MSFCSmershBagBlack,	             *,		500,		250
+		MSFCSmershBagGreen,	             *,		500,		250
+		MSFCSmershBagTan,	             *,		500,		250
+        MSFCSmershBagGray,	            *,		500,		250
+        MSFCRMRSmershBag,	            *,		500,		250
+        MSFCSmershBagEMR,	            *,		500,		250	
+        MSFCSmershBagMedicMulticamBlack,*,	        450,		200	
+	    MSFCSmershBagMedicMulticamBlack,*,	        450,		200		    
+        MSFCSmershBagMulticamBlack,	*,		        500,		200       
+        MSFCSmershBagMedicATACSFG,	*,		450,		200		
+        MSFCSmershBagATACSFG,	*,		    500,		200
+		WaterproofBag_Yellow,	*,		100,	30
+		WaterproofBag_Orange,	*,		100,	30
+		WaterproofBag_Green,	*,		110,	30
+		MSFC_SMALL_BACKPACK_MulticamTropic,	*,      400,		250
+		MSFC_SMALL_BACKPACK_Multicam,	*,		400,		250
+		MSFC_SMALL_BACKPACK_SURPAT,	*,		400,		250    
+        MSFC_SMALL_BACKPACK_Green,	    *,		400,		200
+        MSFC_SMALL_BACKPACK_Black,	    *,		400,		200
+        MSFC_SMALL_BACKPACK_Desert,	    *,		400,		200
+	    MSFC_SMALL_BACKPACK_MulticamBlack,*,        400,		200
+        MSFC_SMALL_BACKPACK_ATACSFG,	*,	400,		200	
+		MSFC_BIG_BACKPACK_Multicam,	*,		1500,		600
+        MSFC_BIG_BACKPACK_MulticamTropic,	*,	1500,		600    
+        MSFC_BIG_BACKPACK_Green,	    *,		800,		350
+        MSFC_BIG_BACKPACK_Black,	    *,		800,		350
+        MSFC_BIG_BACKPACK_Desert,	    *,		800,		350
+        MSFC_BIG_BACKPACK_MulticamBlack,	*,		1500,		600	  
+        MSFC_BIG_BACKPACK_ATACSFG,	*,		1500,		600        
+		MSFC_BIG_BACKPACK_SURPAT,	*,		1500,		600
+		AssaultBag_Black,		*,		110,	30
+		AssaultBag_Green,		*,		110,	30
+		AssaultBag_Ttsko,		*,		130,	30
+		MSFCAssaultBagMulticamTropic,	*,		450,		350
+		MSFCAssaultBagMulticamTropicMedic,	*,	450,		350
+        MSFCAssaultBagMulticam,	*,		        450,		350
+		MSFCAssaultBagSURPAT,	*,		        450,		350
+		MSFCAssaultBagSURPATMedic,	*,		450,		65		
+		MSFCAssaultBagMulticamBlackMedic,*,	        350,		150
+		MSFCAssaultBagMulticamBlack,	*,	        450,		350
+		MSFCAssaultBagATACSFGMedic,	*,		350,		150
+		MSFCAssaultBagATACSFG,	*,		    450,		350
+		MSFCRussianMilitaryAssaultBag,	*,		600,		250
+		HuntingBag,				*,		130,	30
+		TortillaBag,			*,		180,	60
+		CoyoteBag_Brown,		*,		180,	60
+		CoyoteBag_Green,		*,		180,	60
+		MSFCCoyoteBagMulticamTropic,	*,		600,		350
+		MSFCCoyoteBagMulticam,	*,		        1000,		500
+		MSFCCoyoteBagSURPAT,	*,		        600,		350
+		MSFCRMRCoyoteBag,	            *,		600,		350
+		MSFCACUCoyoteBag,	            *,		600,		350
+		MSFCRMRAutumnCoyoteBag,	        *,		600,		250
+        MSFCKryptekBansheeCoyoteBag,	*,		600,		250
+		MSFCKryptekTyphonCoyoteBag,	    *,		600,		250
+		MSFCKryptekMandrakeCoyoteBag,	*,		600,		250
+		MSFCKryptekNeptuneCoyoteBag,	*,		600,		200
+		MSFCKryptekRaidCoyoteBag,	    *,		600,		250
+	    MSFCKryptekWraithCoyoteBag,	    *,		600,		250
+	    MSFCProjectHonorCoyoteBag,	    *,		600,		200
+	    MSFCAOR2CoyoteBag,	            *,		600,		200
+		MSFCCoyoteBagMulticamBlack,	*,		        600,		350
+		MSFCCoyoteBagATACSFG,	*,		    600,		350
+		MountainBag_Orange,		*,		300,	80
+		MountainBag_Red,		*,		300,	80
+		MountainBag_Blue,		*,		300,	80
+		MountainBag_Green,		*,		360,	100
+		MSFCMountainBagMulticamTropic,	*,	        800	,	400
+        MSFCMountainBagMulticam,	*,	        800,		400
+		MSFCMountainBagSURPAT,	*,		        800,		400
+		MSFCMountainBagBlack,	         *,		800,		350
+		MSFCMountainBagMulticamBlack,	*,	        800,		350
+		MSFCMountainBagATACSFG,	*,		    800,		350	
+		MSFCBackpackCargoMulticamBlack,	*,	        500,		200
+        MSFCBackpackCargoATACSFG,	*,		500,		200
+        MSFCBackpackCargoMulticamTropic,	*,	500,		200
+        MSFCBackpackCargoSURPAT,	*,	        500,		200
+        MSFCBackpackCargoGreen,	        *,		500,		250
+        MSFCBackpackCargoDesert,	    *,		500,		250
+        MSFCBackpackCargoBlack,      	*,		500,		250	
+		AliceBag_Black,			*,		400,	150
+		AliceBag_Green,			*,		400,	150
+		AliceBag_Camo,			*,		500,	220
+		MSFCAliceBagMulticam,	*,		        1000,		500
+		MSFCAliceBagMulticamTropic,	*,		1000,		500
+		MSFCAliceBagSURPAT,	*,		        1000,		500
+		MSFCAliceBagMulticamBlack,	*,		        1000,		500
+		MSFCAliceBagATACSFG,	*,		    1000,		550		
+        MSFCBackpackPegasusGreen,	    *,		1000,		450
+        MSFCBackpackPegasusDesert,	    *,		1000,		450
+        MSFCBackpackPegasusBlack,	    *,		1000,		450        
+	    MSFCBackpackPegasusMulticamBlack,	*,      1000,		450
+        MSFCBackpackPegasusATACSFG,	*,		1000,		450
+        MSFCBackpackPegasusMulticam,	*,		1000,		450
+        MSFCBackpackPegasusMulticamTropic,	*,	1000,		450
+        MSFCBackpackPegasusSURPAT,	*,	        1000,		450		
+		MSFCSTALKERBag,	     *,		500,		200
+		MSFCSTALKERDolgBag,	*,		500,		200        
+		MSFCSTALKERSvobodaBag,	*,		500,		200        
+		MSFCSTALKERMercBag,	*,		500,		200        
+		MSFCSTALKERMonolitBag,	*,		500,		200        
+		MSFCSTALKERClearSkyBag,	*,		500,		200        
+		MSFCSTALKERBanditBag,	*,		500,		200        
+		MSFCSTALKERMilitaryBag,	*,		500,		200             
+		MSFCSTALKERBag_Green,	*,		500,		200
+		MSFC_Pantera_Bag,	        *,		500,		150
+        MSFC_PanteraAutumn_Bag,	            *,		500,		250 
+        MSFCBlackTekStoBag,          	*,		600,		250			
+        MSFCBlackCamoBag,	             *,		800,		350        
+        MSFCFlecktarnBag,	             *,		1000,		500	
 
 	<Category> Helmets
 		ConstructionHelmet_Yellow,*,	30,	    25
@@ -892,69 +834,6 @@
 		MSFC_6B23_TTSKO,	             *,		1500,		700
 		MSFC_6B45_TTSKO,	             *,		1500,		700
 
-	<Category> Masks
-		SurgicalMask,			*,		15,		10
-		BandanaMask_PolkaPattern,*,		25,		15
-		BandanaMask_RedPattern,	*,		25,		15
-		BandanaMask_BlackPattern,*,		25,		15
-		BandanaMask_GreenPattern,*,		30,		20
-		BandanaMask_CamoPattern,*,		35,		20
-		NioshFaceMask,			*,		40,		30
-		HockeyMask,				*,		40,		30
-		//HoxtonMask,			*,		40,		30
-		//WolfMask,				*,		40,		30
-		//DallasMask,			*,		40,		30
-		Balaclava3Holes_Blue,	*,		50,		25
-		Balaclava3Holes_Beige,	*,		50,		25
-		Balaclava3Holes_Black,	*,		55,		30
-		Balaclava3Holes_Green,	*,		60,		30
-		WeldingMask,			*,		70,		35
-		GP5GasMask,				*,		120,	60
-
-	<Category> Shirts
-		TShirt_OrangeWhiteStripes,*,	10,     5
-		TShirt_RedBlackStripes,	*,		10,     5
-		TShirt_Red,				*,		10,     5
-		TShirt_Blue,			*,		10,     5
-		TShirt_White,			*,		10,		5
-		TShirt_Grey,			*,		10,		5
-		TShirt_Beige,			*,		10,		5
-		TShirt_Black,			*,		15,     10
-		TShirt_Green,			*,		15,     10
-		TelnyashkaShirt,		*,		15,	    10
-		Shirt_RedCheck,			*,		15,     10
-		Shirt_BlueCheckBright,	*,		15,     10
-		Shirt_BlueCheck,		*,		15,		10
-		Shirt_WhiteCheck,		*,		15,		10
-		Shirt_PlaneBlack,		*,		15,		10
-		Shirt_GreenCheck,		*,		15,		10
-		Blouse_Violet,			*,		15,		10
-		Blouse_Blue,			*,		15,		10
-		Blouse_White,			*,		15,		10
-		Blouse_Green,			*,		15,		10
-		MedicalScrubsShirt_Blue,*,		20,		15
-		MedicalScrubsShirt_White,*,		20,		15
-		MedicalScrubsShirt_Green,*,		20,		15
-		ChernarusSportShirt,	*,		25,		20
-		TacticalShirt_Grey,		*,		35,		25
-		TacticalShirt_Tan,		*,		35,		25
-		TacticalShirt_Black,	*,		40,		30
-		TacticalShirt_Olive,	*,		40,		30	
-
-	<Category> Hoodies & Sweater
-		Sweater_Red,			*,		20,		15
-		Sweater_Blue,			*,		20,		15
-		Sweater_Gray,			*,		20,		15
-		Sweater_Green,			*,		25,		20
-		//Hoodie_DrJ0nes,		*,		30,		20
-		//Hoodie_GraffitiTiles,	*,		30,		20
-		Hoodie_Red,				*,		30,		20
-		Hoodie_Blue,			*,		30,		20
-		Hoodie_Grey,			*,		30,		20
-		Hoodie_Brown,			*,		30,		20
-		Hoodie_Black,			*,		30,		20
-		Hoodie_Green,			*,		35,		25
-		
 	<Category> Vests
 		ReflexVest,				*,		10,		5
 		PoliceVest,				*,		35,		15
@@ -1088,255 +967,6 @@
 		MSFCSTALKERMonolitPlateVest,	*,		3500,		1500
 		MSFCSTALKERSvobodaPlateVest,	*,		3500,		1500
 		MSFCSTALKERVest_Green,	*,		3500,		1500
-
-	<Category> Jackets & Coats
-		LabCoat,				*,		10,		5
-		TrackSuitJacket_Red,	*,		15,		10
-		TrackSuitJacket_LightBlue,*,	15,		10
-		TrackSuitJacket_Blue,	*,		15,		10
-		TrackSuitJacket_Black,	*,		15,		10
-		TrackSuitJacket_Green,	*,		15,		10
-		DenimJacket,			*,		20,		15
-		ManSuit_Blue,			*,		20,		15
-		ManSuit_White,			*,		20,		15
-		ManSuit_LightGrey,		*,		20,		15
-		ManSuit_DarkGrey,		*,		20,		15
-		ManSuit_Beige,			*,		20,		15
-		ManSuit_Brown,			*,		20,		15
-		ManSuit_Black,			*,		20,		15
-		ManSuit_Khaki,			*,		20,		15
-		WomanSuit_Blue,			*,		20,		15
-		WomanSuit_White,		*,		20,		15
-		WomanSuit_LightGrey,	*,		20,		15
-		WomanSuit_DarkGrey,		*,		20,		15
-		WomanSuit_Beige,		*,		20,		15
-		WomanSuit_Brown,		*,		20,		15
-		WomanSuit_Black,		*,		20,		15
-		WomanSuit_Khaki,		*,		20,		15
-		WoolCoat_Red,			*,		20,		15
-		WoolCoat_RedCheck,		*,		20,		15
-		WoolCoat_Blue,			*,		20,		15
-		WoolCoat_BlueCheck,		*,		20,		15
-		WoolCoat_GreyCheck,		*,		20,		15
-		WoolCoat_BrownCheck,	*,		20,		15
-		WoolCoat_Beige,			*,		20,		15
-		WoolCoat_Black,			*,		20,		15
-		WoolCoat_BlackCheck,	*,		20,		15
-		WoolCoat_Green,			*,		20,		15
-		RidersJacket_Black,		*,		20,		15
-		FirefighterJacket_Beige,*,		25,		20
-		FirefighterJacket_Black,*,		25,		20
-		JumpsuitJacket_Red,		*,		30,		25
-		JumpsuitJacket_Blue,	*,		30,		25
-		JumpsuitJacket_Gray,	*,		30,		25
-		JumpsuitJacket_Green,	*,		30,		25
-		BomberJacket_Maroon,	*,		30,		25
-		BomberJacket_SkyBlue,	*,		30,		25
-		BomberJacket_Blue,		*,		30,		25
-		BomberJacket_Grey,		*,		30,		25
-		BomberJacket_Brown,		*,		30,		25
-		BomberJacket_Black,		*,		30,		25
-		BomberJacket_Olive,		*,		30,	    25
-		QuiltedJacket_Orange,	*,		35,		30
-		QuiltedJacket_Yellow,	*,		35,		30
-		QuiltedJacket_Red,		*,		35,		30
-		QuiltedJacket_Violet,	*,		35,		30
-		QuiltedJacket_Blue,		*,		35,		30
-		QuiltedJacket_Grey,		*,		35,		30
-		QuiltedJacket_Black,	*,		35,		30
-		QuiltedJacket_Green,	*,		30,		15
-		PrisonUniformJacket,	*,		30,		15
-		PoliceJacketOrel,		*,		35,		25
-		PoliceJacket,			*,		35,		25
-		ParamedicJacket_Crimson,*,		35,		25
-		ParamedicJacket_Blue,	*,		35,		25
-		ParamedicJacket_Green,	*,		35,		25
-		HikingJacket_Red,		*,		35,		25
-		HikingJacket_Blue,		*,		40,		30
-		HikingJacket_Black,		*,		40,		30
-		HikingJacket_Green,		*,		40,		30
-		Raincoat_Pink,			*,		70,		50
-		Raincoat_Orange,		*,		70,		50
-		Raincoat_Yellow,		*,		70,		50
-		Raincoat_Red,			*,		70,		50
-		Raincoat_Blue,			*,		70,		50
-		Raincoat_Black,			*,		80,		60
-		Raincoat_Green,			*,		100,	80
-		TTsKOJacket_Camo,		*,		100,	80
-		BDUJacket,				*,		100,	80
-		HuntingJacket_Winter,	*,		120,	80
-		HuntingJacket_Brown,	*,		120,	80
-		HuntingJacket_Autumn,	*,		120,	80
-		HuntingJacket_Spring,	*,		120,	80
-		HuntingJacket_Summer,	*,		120,	80
-		M65Jacket_Tan,			*,		130,	90
-		M65Jacket_Black,		*,		130,	90
-		M65Jacket_Khaki,		*,		130,	90
-		M65Jacket_Olive,		*,		130,	90
-		GorkaEJacket_Autumn,	*,		140,	90
-		GorkaEJacket_Flat,		*,		140,	90
-		GorkaEJacket_PautRev,	*,		140,	90
-		GorkaEJacket_Summer,	*,		140,	90
-		USMCJacket_Desert,		*,		140,	90
-		USMCJacket_Woodland,	*,		155,	100
-
-
-	<Category> Skirts & Dresses
-		Skirt_Yellow,			*,		30,		10
-		Skirt_Red,				*,		30,		10
-		Skirt_Blue,				*,		30,		10
-		Skirt_White,			*,		30,		10
-		MiniDress_Pink,			*,		35,		10
-		MiniDress_PinkChecker,	*,		35,		10
-		MiniDress_RedChecker,	*,		35,		10
-		MiniDress_BlueChecker,	*,		35,		10
-		MiniDress_BlueWithDots,	*,		35,		10
-		MiniDress_WhiteChecker,	*,		35,		10
-		MiniDress_BrownChecker,	*,		35,		10
-		MiniDress_GreenChecker,	*,		35,		10
-		NurseDress_Blue,		*,		40,		10
-		NurseDress_White,		*,		40,		10
-
-	<Category> Pants
-		MedicalScrubsPants_Blue,*,		10,		5
-		MedicalScrubsPants_White,*,		10,		5
-		MedicalScrubsPants_Green,*,		10,		5
-		TrackSuitPants_Red,		*,		15,		10
-		TrackSuitPants_LightBlue,*,		15,		10
-		TrackSuitPants_Blue,	*,		15,		10
-		TrackSuitPants_Black,	*,		15,		10
-		TrackSuitPants_Green,	*,		15,		10
-		PrisonUniformPants,		*,		15,     10
-		Breeches_Pink,			*,		20,		15
-		Breeches_Red,			*,		20,		15
-		Breeches_Blue,			*,		20,		15
-		Breeches_White,			*,		20,		15
-		Breeches_Beetcheck,		*,		20,		15
-		Breeches_Beige,			*,		20,     15
-		Breeches_Browncheck,	*,		21,	    15
-		Breeches_Black,			*,		22,	    15
-		Breeches_Blackcheck,	*,		22,		15
-		Breeches_Green,			*,		24,		15
-		SlacksPants_Blue,		*,		20,		15
-		SlacksPants_White,		*,		20,		15
-		SlacksPants_LightGrey,	*,		20,		15
-		SlacksPants_DarkGrey,	*,		20,		15
-		SlacksPants_Beige,		*,		20,		15
-		SlacksPants_Brown,		*,		25,     15
-		SlacksPants_Black,		*,		25,     15
-		SlacksPants_Khaki,		*,		25,     15
-		CanvasPantsMidi_Red,	*,		25,     15
-		CanvasPantsMidi_Violet,	*,		25,     15
-		CanvasPantsMidi_Blue,	*,		25,     15
-		CanvasPantsMidi_Grey,	*,		25,     15
-		CanvasPantsMidi_Beige,	*,		25,		15
-		CanvasPants_Red,		*,		25,     15
-		CanvasPants_Violet,		*,		25,     15
-		CanvasPants_Blue,		*,		25,     15
-		CanvasPants_Grey,		*,		25,     15
-		CanvasPants_Beige,		*,		25,     15
-		JumpsuitPants_Red,		*,		25,     15
-		JumpsuitPants_Blue,		*,		25,     15
-		JumpsuitPants_Grey,		*,		25,     15
-		JumpsuitPants_Green,	*,		25,     15
-		PolicePants,			*,		25,     15
-		ParamedicPants_Crimson,	*,		35,		20
-		ParamedicPants_Blue,	*,		35,		20
-		ParamedicPants_Green,	*,		35,		20
-		FirefightersPants_Beige,*,		35,		20
-		FirefightersPants_Black,*,		35,		20
-		CargoPants_Blue,		*,		35,		20
-		CargoPants_Grey,		*,		35,		20
-		CargoPants_Beige,		*,		35,		20
-		CargoPants_Black,		*,		35,		20
-		CargoPants_Green,		*,		35,		20
-		ShortJeans_Red,			*,		35,     20
-		ShortJeans_Blue,		*,		35,     20
-		ShortJeans_Darkblue,	*,		35,     20
-		ShortJeans_Brown,		*,		35,     20
-		ShortJeans_Black,		*,		40,		25
-		ShortJeans_Green,		*,		40,     25
-		Jeans_Blue,				*,		40,		25
-		Jeans_BlueDark,			*,		40,		25
-		Jeans_Grey,				*,		40,		25
-		Jeans_Brown,			*,		40,		25
-		Jeans_Black,			*,		45,     25
-		Jeans_Green,			*,		45,		25
-		TTSKOPants,				*,		55,		30
-		BDUPants,				*,		65,		35
-		USMCPants_Desert,		*,		65,		35
-		USMCPants_Woodland,		*,		70,		40
-		PolicePantsOrel,		*,		70,		40
-		HunterPants_Winter,		*,		90,		50
-		HunterPants_Brown,		*,		100,	60
-		HunterPants_Spring,		*,		100,	60
-		HunterPants_Autumn,		*,		100,	60
-		HunterPants_Summer,		*,		100,	60
-		GorkaPants_Flat,		*,		130,	70
-		GorkaPants_PautRev,		*,		130,	70
-		GorkaPants_Autumn,		*,		130,	70
-		GorkaPants_Summer,		*,		130,	70
-
-	
-	<Category> Shoes & Boots
-		AthleticShoes_Blue,		*,		15,	   10
-		AthleticShoes_Grey,		*,		20,	   15
-		AthleticShoes_Brown,	*,		20,	   15
-		AthleticShoes_Black,	*,		20,    15
-		AthleticShoes_Green,	*,		20,    15
-		JoggingShoes_Violet,	*,		30,	   20
-		JoggingShoes_Red,		*,		30,	   20
-		JoggingShoes_Blue,		*,		30,	   20
-		JoggingShoes_White,		*,		30,	   20
-		JoggingShoes_Black,		*,		30,	   20
-		Sneakers_Red,			*,		30,	   20
-		Sneakers_White,			*,		30,	   20
-		Sneakers_Gray,			*,		30,	   20
-		Sneakers_Black,			*,		30,    20
-		Sneakers_Green,			*,		30,    20
-		DressShoes_White,		*,		30,    20
-		DressShoes_Brown,		*,		35,	   25
-		DressShoes_Black,		*,		35,	   25
-		DressShoes_Beige,		*,		35,	   25
-		DressShoes_Sunburst,	*,		35,	   25
-		HikingBootsLow_Blue,	*,		45,	   30
-		HikingBootsLow_Grey,	*,		45,	   30
-		HikingBootsLow_Beige,	*,		48,	   30
-		HikingBootsLow_Black,	*,		50,	   25
-		WorkingBoots_Yellow,	*,		55,	   30
-		WorkingBoots_Grey,		*,		60,	   35
-		WorkingBoots_Beige,		*,		60,	   35
-		WorkingBoots_Brown,		*,		60,	   35
-		WorkingBoots_Green,		*,		65,	   40
-		HikingBoots_Brown,		*,		75,	   50
-		HikingBoots_Black,		*,		75,	   50
-		CombatBoots_Grey,		*,		80,	   60
-		CombatBoots_Beige,		*,		80,	   60
-		CombatBoots_Brown,		*,		80,	   60
-		CombatBoots_Black,		*,		80,	   60
-		CombatBoots_Green,		*,		80,	   60
-		JungleBoots_Beige,		*,		85,	   65
-		JungleBoots_Brown,		*,		85,	   65
-		JungleBoots_Black,		*,		85,	   65
-		JungleBoots_Olive,		*,		85,	   65
-		JungleBoots_Green,		*,		85,	   65
-		Wellies_Grey,			*,		85,	   65
-		Wellies_Brown,			*,		85,	   65
-		Wellies_Black,			*,		85,	   65
-		Wellies_Green,			*,		90,	   70
-		TTSKOBoots,				*,		100,   50
-		MilitaryBoots_Redpunk,	*,		100,   50
-		MilitaryBoots_Bluerock,	*,		105,   50
-		MilitaryBoots_Beige,	*,		110,   50
-		MilitaryBoots_Brown,	*,		110,   50
-		MilitaryBoots_Black,	*,		110,   50
-
-
-		
-	//<Category> Seasonal
-		//SantasBeard,			*,		15,		0
-		//SantasHat,			*,		35,		0
-		//PumpkinHelmet,		*,		50,		0
 
 	<Category> Holster & Pouches
 		ChestHolster,			*,		60,		20
@@ -1503,138 +1133,499 @@
 		MSFC_WarBelt_Multicam,	*,		2500,		850
 		MSFC_WarBelt_MulticamBlack,	*,		        1500,		450
 		MSFC_WarBelt_ATACSFG,	*,		    1000,		350
-		
-	<Category> Bags
-		ChildBag_Red,			*,		20,		5
-		ChildBag_Blue,			*,		20,		5
-		ChildBag_Green,			*,		25,		6
-		DryBag_Yellow,			*,		30,		8
-		DryBag_Orange,			*,		30,		8
-		DryBag_Red,				*,		30,		8
-		DryBag_Blue,			*,		30,		8
-		DryBag_Black,			*,		35,		8
-		DryBag_Green,			*,		40,		10
-		TaloonBag_Orange,		*,		50,		10
-		TaloonBag_Violet,		*,		50,		10
-		TaloonBag_Blue,			*,		50,		10
-		TaloonBag_Green,		*,		70,		20
-		SmershBag,				*,		100,	30		
-        MSFCSmershBagMulticamTropic,	*,		400,		250        
-        MSFCSmershBagMedicMulticam,	*,		400,		250	        
-        MSFCSmershBagSURPAT,	*,		        400,		250
-		MSFCSmershBagMedicSURPAT,	*,		400,		250
-        MSFCSmershBagBlack,	             *,		500,		250
-		MSFCSmershBagGreen,	             *,		500,		250
-		MSFCSmershBagTan,	             *,		500,		250
-        MSFCSmershBagGray,	            *,		500,		250
-        MSFCRMRSmershBag,	            *,		500,		250
-        MSFCSmershBagEMR,	            *,		500,		250	
-        MSFCSmershBagMedicMulticamBlack,*,	        450,		200	
-	    MSFCSmershBagMedicMulticamBlack,*,	        450,		200		    
-        MSFCSmershBagMulticamBlack,	*,		        500,		200       
-        MSFCSmershBagMedicATACSFG,	*,		450,		200		
-        MSFCSmershBagATACSFG,	*,		    500,		200
-		WaterproofBag_Yellow,	*,		100,	30
-		WaterproofBag_Orange,	*,		100,	30
-		WaterproofBag_Green,	*,		110,	30
-		MSFC_SMALL_BACKPACK_MulticamTropic,	*,      400,		250
-		MSFC_SMALL_BACKPACK_Multicam,	*,		400,		250
-		MSFC_SMALL_BACKPACK_SURPAT,	*,		400,		250    
-        MSFC_SMALL_BACKPACK_Green,	    *,		400,		200
-        MSFC_SMALL_BACKPACK_Black,	    *,		400,		200
-        MSFC_SMALL_BACKPACK_Desert,	    *,		400,		200
-	    MSFC_SMALL_BACKPACK_MulticamBlack,*,        400,		200
-        MSFC_SMALL_BACKPACK_ATACSFG,	*,	400,		200	
-		MSFC_BIG_BACKPACK_Multicam,	*,		1500,		600
-        MSFC_BIG_BACKPACK_MulticamTropic,	*,	1500,		600    
-        MSFC_BIG_BACKPACK_Green,	    *,		800,		350
-        MSFC_BIG_BACKPACK_Black,	    *,		800,		350
-        MSFC_BIG_BACKPACK_Desert,	    *,		800,		350
-        MSFC_BIG_BACKPACK_MulticamBlack,	*,		1500,		600	  
-        MSFC_BIG_BACKPACK_ATACSFG,	*,		1500,		600        
-		MSFC_BIG_BACKPACK_SURPAT,	*,		1500,		600
-		AssaultBag_Black,		*,		110,	30
-		AssaultBag_Green,		*,		110,	30
-		AssaultBag_Ttsko,		*,		130,	30
-		MSFCAssaultBagMulticamTropic,	*,		450,		350
-		MSFCAssaultBagMulticamTropicMedic,	*,	450,		350
-        MSFCAssaultBagMulticam,	*,		        450,		350
-		MSFCAssaultBagSURPAT,	*,		        450,		350
-		MSFCAssaultBagSURPATMedic,	*,		450,		65		
-		MSFCAssaultBagMulticamBlackMedic,*,	        350,		150
-		MSFCAssaultBagMulticamBlack,	*,	        450,		350
-		MSFCAssaultBagATACSFGMedic,	*,		350,		150
-		MSFCAssaultBagATACSFG,	*,		    450,		350
-		MSFCRussianMilitaryAssaultBag,	*,		600,		250
-		HuntingBag,				*,		130,	30
-		TortillaBag,			*,		180,	60
-		CoyoteBag_Brown,		*,		180,	60
-		CoyoteBag_Green,		*,		180,	60
-		MSFCCoyoteBagMulticamTropic,	*,		600,		350
-		MSFCCoyoteBagMulticam,	*,		        1000,		500
-		MSFCCoyoteBagSURPAT,	*,		        600,		350
-		MSFCRMRCoyoteBag,	            *,		600,		350
-		MSFCACUCoyoteBag,	            *,		600,		350
-		MSFCRMRAutumnCoyoteBag,	        *,		600,		250
-        MSFCKryptekBansheeCoyoteBag,	*,		600,		250
-		MSFCKryptekTyphonCoyoteBag,	    *,		600,		250
-		MSFCKryptekMandrakeCoyoteBag,	*,		600,		250
-		MSFCKryptekNeptuneCoyoteBag,	*,		600,		200
-		MSFCKryptekRaidCoyoteBag,	    *,		600,		250
-	    MSFCKryptekWraithCoyoteBag,	    *,		600,		250
-	    MSFCProjectHonorCoyoteBag,	    *,		600,		200
-	    MSFCAOR2CoyoteBag,	            *,		600,		200
-		MSFCCoyoteBagMulticamBlack,	*,		        600,		350
-		MSFCCoyoteBagATACSFG,	*,		    600,		350
-		MountainBag_Orange,		*,		300,	80
-		MountainBag_Red,		*,		300,	80
-		MountainBag_Blue,		*,		300,	80
-		MountainBag_Green,		*,		360,	100
-		MSFCMountainBagMulticamTropic,	*,	        800	,	400
-        MSFCMountainBagMulticam,	*,	        800,		400
-		MSFCMountainBagSURPAT,	*,		        800,		400
-		MSFCMountainBagBlack,	         *,		800,		350
-		MSFCMountainBagMulticamBlack,	*,	        800,		350
-		MSFCMountainBagATACSFG,	*,		    800,		350	
-		MSFCBackpackCargoMulticamBlack,	*,	        500,		200
-        MSFCBackpackCargoATACSFG,	*,		500,		200
-        MSFCBackpackCargoMulticamTropic,	*,	500,		200
-        MSFCBackpackCargoSURPAT,	*,	        500,		200
-        MSFCBackpackCargoGreen,	        *,		500,		250
-        MSFCBackpackCargoDesert,	    *,		500,		250
-        MSFCBackpackCargoBlack,      	*,		500,		250	
-		AliceBag_Black,			*,		400,	150
-		AliceBag_Green,			*,		400,	150
-		AliceBag_Camo,			*,		500,	220
-		MSFCAliceBagMulticam,	*,		        1000,		500
-		MSFCAliceBagMulticamTropic,	*,		1000,		500
-		MSFCAliceBagSURPAT,	*,		        1000,		500
-		MSFCAliceBagMulticamBlack,	*,		        1000,		500
-		MSFCAliceBagATACSFG,	*,		    1000,		550		
-        MSFCBackpackPegasusGreen,	    *,		1000,		450
-        MSFCBackpackPegasusDesert,	    *,		1000,		450
-        MSFCBackpackPegasusBlack,	    *,		1000,		450        
-	    MSFCBackpackPegasusMulticamBlack,	*,      1000,		450
-        MSFCBackpackPegasusATACSFG,	*,		1000,		450
-        MSFCBackpackPegasusMulticam,	*,		1000,		450
-        MSFCBackpackPegasusMulticamTropic,	*,	1000,		450
-        MSFCBackpackPegasusSURPAT,	*,	        1000,		450		
-		MSFCSTALKERBag,	     *,		500,		200
-		MSFCSTALKERDolgBag,	*,		500,		200        
-		MSFCSTALKERSvobodaBag,	*,		500,		200        
-		MSFCSTALKERMercBag,	*,		500,		200        
-		MSFCSTALKERMonolitBag,	*,		500,		200        
-		MSFCSTALKERClearSkyBag,	*,		500,		200        
-		MSFCSTALKERBanditBag,	*,		500,		200        
-		MSFCSTALKERMilitaryBag,	*,		500,		200             
-		MSFCSTALKERBag_Green,	*,		500,		200
-		MSFC_Pantera_Bag,	        *,		500,		150
-        MSFC_PanteraAutumn_Bag,	            *,		500,		250 
-        MSFCBlackTekStoBag,          	*,		600,		250			
-        MSFCBlackCamoBag,	             *,		800,		350        
-        MSFCFlecktarnBag,	             *,		1000,		500
-		
+
+	<Category> Shirts
+		TShirt_OrangeWhiteStripes,*,	10,     5
+		TShirt_RedBlackStripes,	*,		10,     5
+		TShirt_Red,				*,		10,     5
+		TShirt_Blue,			*,		10,     5
+		TShirt_White,			*,		10,		5
+		TShirt_Grey,			*,		10,		5
+		TShirt_Beige,			*,		10,		5
+		TShirt_Black,			*,		15,     10
+		TShirt_Green,			*,		15,     10
+		TelnyashkaShirt,		*,		15,	    10
+		Shirt_RedCheck,			*,		15,     10
+		Shirt_BlueCheckBright,	*,		15,     10
+		Shirt_BlueCheck,		*,		15,		10
+		Shirt_WhiteCheck,		*,		15,		10
+		Shirt_PlaneBlack,		*,		15,		10
+		Shirt_GreenCheck,		*,		15,		10
+		Blouse_Violet,			*,		15,		10
+		Blouse_Blue,			*,		15,		10
+		Blouse_White,			*,		15,		10
+		Blouse_Green,			*,		15,		10
+		MedicalScrubsShirt_Blue,*,		20,		15
+		MedicalScrubsShirt_White,*,		20,		15
+		MedicalScrubsShirt_Green,*,		20,		15
+		ChernarusSportShirt,	*,		25,		20
+		TacticalShirt_Grey,		*,		35,		25
+		TacticalShirt_Tan,		*,		35,		25
+		TacticalShirt_Black,	*,		40,		30
+		TacticalShirt_Olive,	*,		40,		30	
+
+	<Category> Hoodies & Sweater
+		Sweater_Red,			*,		20,		15
+		Sweater_Blue,			*,		20,		15
+		Sweater_Gray,			*,		20,		15
+		Sweater_Green,			*,		25,		20
+		//Hoodie_DrJ0nes,		*,		30,		20
+		//Hoodie_GraffitiTiles,	*,		30,		20
+		Hoodie_Red,				*,		30,		20
+		Hoodie_Blue,			*,		30,		20
+		Hoodie_Grey,			*,		30,		20
+		Hoodie_Brown,			*,		30,		20
+		Hoodie_Black,			*,		30,		20
+		Hoodie_Green,			*,		35,		25
+
+	<Category> Jackets & Coats
+		LabCoat,				*,		10,		5
+		TrackSuitJacket_Red,	*,		15,		10
+		TrackSuitJacket_LightBlue,*,	15,		10
+		TrackSuitJacket_Blue,	*,		15,		10
+		TrackSuitJacket_Black,	*,		15,		10
+		TrackSuitJacket_Green,	*,		15,		10
+		DenimJacket,			*,		20,		15
+		ManSuit_Blue,			*,		20,		15
+		ManSuit_White,			*,		20,		15
+		ManSuit_LightGrey,		*,		20,		15
+		ManSuit_DarkGrey,		*,		20,		15
+		ManSuit_Beige,			*,		20,		15
+		ManSuit_Brown,			*,		20,		15
+		ManSuit_Black,			*,		20,		15
+		ManSuit_Khaki,			*,		20,		15
+		WomanSuit_Blue,			*,		20,		15
+		WomanSuit_White,		*,		20,		15
+		WomanSuit_LightGrey,	*,		20,		15
+		WomanSuit_DarkGrey,		*,		20,		15
+		WomanSuit_Beige,		*,		20,		15
+		WomanSuit_Brown,		*,		20,		15
+		WomanSuit_Black,		*,		20,		15
+		WomanSuit_Khaki,		*,		20,		15
+		WoolCoat_Red,			*,		20,		15
+		WoolCoat_RedCheck,		*,		20,		15
+		WoolCoat_Blue,			*,		20,		15
+		WoolCoat_BlueCheck,		*,		20,		15
+		WoolCoat_GreyCheck,		*,		20,		15
+		WoolCoat_BrownCheck,	*,		20,		15
+		WoolCoat_Beige,			*,		20,		15
+		WoolCoat_Black,			*,		20,		15
+		WoolCoat_BlackCheck,	*,		20,		15
+		WoolCoat_Green,			*,		20,		15
+		RidersJacket_Black,		*,		20,		15
+		FirefighterJacket_Beige,*,		25,		20
+		FirefighterJacket_Black,*,		25,		20
+		JumpsuitJacket_Red,		*,		30,		25
+		JumpsuitJacket_Blue,	*,		30,		25
+		JumpsuitJacket_Gray,	*,		30,		25
+		JumpsuitJacket_Green,	*,		30,		25
+		BomberJacket_Maroon,	*,		30,		25
+		BomberJacket_SkyBlue,	*,		30,		25
+		BomberJacket_Blue,		*,		30,		25
+		BomberJacket_Grey,		*,		30,		25
+		BomberJacket_Brown,		*,		30,		25
+		BomberJacket_Black,		*,		30,		25
+		BomberJacket_Olive,		*,		30,	    25
+		QuiltedJacket_Orange,	*,		35,		30
+		QuiltedJacket_Yellow,	*,		35,		30
+		QuiltedJacket_Red,		*,		35,		30
+		QuiltedJacket_Violet,	*,		35,		30
+		QuiltedJacket_Blue,		*,		35,		30
+		QuiltedJacket_Grey,		*,		35,		30
+		QuiltedJacket_Black,	*,		35,		30
+		QuiltedJacket_Green,	*,		30,		15
+		PrisonUniformJacket,	*,		30,		15
+		PoliceJacketOrel,		*,		35,		25
+		PoliceJacket,			*,		35,		25
+		ParamedicJacket_Crimson,*,		35,		25
+		ParamedicJacket_Blue,	*,		35,		25
+		ParamedicJacket_Green,	*,		35,		25
+		HikingJacket_Red,		*,		35,		25
+		HikingJacket_Blue,		*,		40,		30
+		HikingJacket_Black,		*,		40,		30
+		HikingJacket_Green,		*,		40,		30
+		Raincoat_Pink,			*,		70,		50
+		Raincoat_Orange,		*,		70,		50
+		Raincoat_Yellow,		*,		70,		50
+		Raincoat_Red,			*,		70,		50
+		Raincoat_Blue,			*,		70,		50
+		Raincoat_Black,			*,		80,		60
+		Raincoat_Green,			*,		100,	80
+		TTsKOJacket_Camo,		*,		100,	80
+		BDUJacket,				*,		100,	80
+		HuntingJacket_Winter,	*,		120,	80
+		HuntingJacket_Brown,	*,		120,	80
+		HuntingJacket_Autumn,	*,		120,	80
+		HuntingJacket_Spring,	*,		120,	80
+		HuntingJacket_Summer,	*,		120,	80
+		M65Jacket_Tan,			*,		130,	90
+		M65Jacket_Black,		*,		130,	90
+		M65Jacket_Khaki,		*,		130,	90
+		M65Jacket_Olive,		*,		130,	90
+		GorkaEJacket_Autumn,	*,		140,	90
+		GorkaEJacket_Flat,		*,		140,	90
+		GorkaEJacket_PautRev,	*,		140,	90
+		GorkaEJacket_Summer,	*,		140,	90
+		USMCJacket_Desert,		*,		140,	90
+		USMCJacket_Woodland,	*,		155,	100	
+
+	<Category> Pants
+		MedicalScrubsPants_Blue,*,		10,		5
+		MedicalScrubsPants_White,*,		10,		5
+		MedicalScrubsPants_Green,*,		10,		5
+		TrackSuitPants_Red,		*,		15,		10
+		TrackSuitPants_LightBlue,*,		15,		10
+		TrackSuitPants_Blue,	*,		15,		10
+		TrackSuitPants_Black,	*,		15,		10
+		TrackSuitPants_Green,	*,		15,		10
+		PrisonUniformPants,		*,		15,     10
+		Breeches_Pink,			*,		20,		15
+		Breeches_Red,			*,		20,		15
+		Breeches_Blue,			*,		20,		15
+		Breeches_White,			*,		20,		15
+		Breeches_Beetcheck,		*,		20,		15
+		Breeches_Beige,			*,		20,     15
+		Breeches_Browncheck,	*,		21,	    15
+		Breeches_Black,			*,		22,	    15
+		Breeches_Blackcheck,	*,		22,		15
+		Breeches_Green,			*,		24,		15
+		SlacksPants_Blue,		*,		20,		15
+		SlacksPants_White,		*,		20,		15
+		SlacksPants_LightGrey,	*,		20,		15
+		SlacksPants_DarkGrey,	*,		20,		15
+		SlacksPants_Beige,		*,		20,		15
+		SlacksPants_Brown,		*,		25,     15
+		SlacksPants_Black,		*,		25,     15
+		SlacksPants_Khaki,		*,		25,     15
+		CanvasPantsMidi_Red,	*,		25,     15
+		CanvasPantsMidi_Violet,	*,		25,     15
+		CanvasPantsMidi_Blue,	*,		25,     15
+		CanvasPantsMidi_Grey,	*,		25,     15
+		CanvasPantsMidi_Beige,	*,		25,		15
+		CanvasPants_Red,		*,		25,     15
+		CanvasPants_Violet,		*,		25,     15
+		CanvasPants_Blue,		*,		25,     15
+		CanvasPants_Grey,		*,		25,     15
+		CanvasPants_Beige,		*,		25,     15
+		JumpsuitPants_Red,		*,		25,     15
+		JumpsuitPants_Blue,		*,		25,     15
+		JumpsuitPants_Grey,		*,		25,     15
+		JumpsuitPants_Green,	*,		25,     15
+		PolicePants,			*,		25,     15
+		ParamedicPants_Crimson,	*,		35,		20
+		ParamedicPants_Blue,	*,		35,		20
+		ParamedicPants_Green,	*,		35,		20
+		FirefightersPants_Beige,*,		35,		20
+		FirefightersPants_Black,*,		35,		20
+		CargoPants_Blue,		*,		35,		20
+		CargoPants_Grey,		*,		35,		20
+		CargoPants_Beige,		*,		35,		20
+		CargoPants_Black,		*,		35,		20
+		CargoPants_Green,		*,		35,		20
+		ShortJeans_Red,			*,		35,     20
+		ShortJeans_Blue,		*,		35,     20
+		ShortJeans_Darkblue,	*,		35,     20
+		ShortJeans_Brown,		*,		35,     20
+		ShortJeans_Black,		*,		40,		25
+		ShortJeans_Green,		*,		40,     25
+		Jeans_Blue,				*,		40,		25
+		Jeans_BlueDark,			*,		40,		25
+		Jeans_Grey,				*,		40,		25
+		Jeans_Brown,			*,		40,		25
+		Jeans_Black,			*,		45,     25
+		Jeans_Green,			*,		45,		25
+		TTSKOPants,				*,		55,		30
+		BDUPants,				*,		65,		35
+		USMCPants_Desert,		*,		65,		35
+		USMCPants_Woodland,		*,		70,		40
+		PolicePantsOrel,		*,		70,		40
+		HunterPants_Winter,		*,		90,		50
+		HunterPants_Brown,		*,		100,	60
+		HunterPants_Spring,		*,		100,	60
+		HunterPants_Autumn,		*,		100,	60
+		HunterPants_Summer,		*,		100,	60
+		GorkaPants_Flat,		*,		130,	70
+		GorkaPants_PautRev,		*,		130,	70
+		GorkaPants_Autumn,		*,		130,	70
+		GorkaPants_Summer,		*,		130,	70
+
 	
+	<Category> Shoes & Boots
+		AthleticShoes_Blue,		*,		15,	   10
+		AthleticShoes_Grey,		*,		20,	   15
+		AthleticShoes_Brown,	*,		20,	   15
+		AthleticShoes_Black,	*,		20,    15
+		AthleticShoes_Green,	*,		20,    15
+		JoggingShoes_Violet,	*,		30,	   20
+		JoggingShoes_Red,		*,		30,	   20
+		JoggingShoes_Blue,		*,		30,	   20
+		JoggingShoes_White,		*,		30,	   20
+		JoggingShoes_Black,		*,		30,	   20
+		Sneakers_Red,			*,		30,	   20
+		Sneakers_White,			*,		30,	   20
+		Sneakers_Gray,			*,		30,	   20
+		Sneakers_Black,			*,		30,    20
+		Sneakers_Green,			*,		30,    20
+		DressShoes_White,		*,		30,    20
+		DressShoes_Brown,		*,		35,	   25
+		DressShoes_Black,		*,		35,	   25
+		DressShoes_Beige,		*,		35,	   25
+		DressShoes_Sunburst,	*,		35,	   25
+		HikingBootsLow_Blue,	*,		45,	   30
+		HikingBootsLow_Grey,	*,		45,	   30
+		HikingBootsLow_Beige,	*,		48,	   30
+		HikingBootsLow_Black,	*,		50,	   25
+		WorkingBoots_Yellow,	*,		55,	   30
+		WorkingBoots_Grey,		*,		60,	   35
+		WorkingBoots_Beige,		*,		60,	   35
+		WorkingBoots_Brown,		*,		60,	   35
+		WorkingBoots_Green,		*,		65,	   40
+		HikingBoots_Brown,		*,		75,	   50
+		HikingBoots_Black,		*,		75,	   50
+		CombatBoots_Grey,		*,		80,	   60
+		CombatBoots_Beige,		*,		80,	   60
+		CombatBoots_Brown,		*,		80,	   60
+		CombatBoots_Black,		*,		80,	   60
+		CombatBoots_Green,		*,		80,	   60
+		JungleBoots_Beige,		*,		85,	   65
+		JungleBoots_Brown,		*,		85,	   65
+		JungleBoots_Black,		*,		85,	   65
+		JungleBoots_Olive,		*,		85,	   65
+		JungleBoots_Green,		*,		85,	   65
+		Wellies_Grey,			*,		85,	   65
+		Wellies_Brown,			*,		85,	   65
+		Wellies_Black,			*,		85,	   65
+		Wellies_Green,			*,		90,	   70
+		TTSKOBoots,				*,		100,   50
+		MilitaryBoots_Redpunk,	*,		100,   50
+		MilitaryBoots_Bluerock,	*,		105,   50
+		MilitaryBoots_Beige,	*,		110,   50
+		MilitaryBoots_Brown,	*,		110,   50
+		MilitaryBoots_Black,	*,		110,   50
+		
+	<Category> Gloves
+		SurgicalGloves_LightBlue,*,		15,		10
+		SurgicalGloves_Blue,	*,		15,		10
+		SurgicalGloves_White,	*,		15,		10
+		SurgicalGloves_Green,	*,		15,		10
+		WorkingGloves_Yellow,	*,		25,		20
+		WorkingGloves_Beige,	*,		30,		25
+		WorkingGloves_Brown,	*,		30,		25
+		WorkingGloves_Black,	*,		30,		25
+		TacticalGloves_Beige,	*,		35,		30
+		TacticalGloves_Black,	*,		35,		30
+		TacticalGloves_Green,	*,		35,		30
+		MSFCGlovesMulticamTropic,	*,	35,		30
+        MSFCGlovesMulticam,	*,		    35,		30
+		MSFCGlovesSURPAT,	*,		    35,		30
+		MSFCFlecktarnGloves,	    *,	35,		30
+		MSFCDigitalNavyGloves,	    *,	35,		30	
+		MSFCBlackTekStoGloves,	    *,	35,		30
+		MSFCRussianMilitaryGloves,  *,	35,		30
+		MSFCACUGloves,	            *,	35,		30
+		MSFCBlackCamoGloves,	    *,	35,		30
+		MSFCGlovesMulticamBlack,	*,  35,		30
+		MSFCGlovesATACSFG,	*,		    35,		30
+		MSFCSTALKEREcologGloves,	*,	35,		30
+		OMNOGloves_Gray,		*,		40,		35
+		OMNOGloves_Brown,		*,		40,		35
+
+	<Category> Glasses & Night Vision
+		SportGlasses_Orange,	*,		20,		10
+		SportGlasses_Blue,		*,		20,		10
+		SportGlasses_Black,		*,		20,		10
+		SportGlasses_Green,		*,		20,		10
+		ThinFramesGlasses,		*,		20,		10
+		ThickFramesGlasses,		*,		25,		15
+		DesignerGlasses,		*,		30,		25
+		AviatorGlasses,			*,		40,		30
+		TacticalGoggles,		*,		60,		45
+		NVGHeadstrap,			*,		200,	150
+		MSFC_BC_NVG21,	                *,		350,		150
+		MSFC_GPNVG18_Desert,	        *,		5000,		1500
+        MSFC_GPNVG18_Black,	            *,		5000,		1500
+        MSFC_GPNVG18_Green,	            *,		5000,		1500
+		MSFCOpsCoreNVG,	                *,		5000,		1500	
+
+
+	<Category> Hats & Caps
+		MedicalScrubsHat_Blue,	*,		10,		5
+		MedicalScrubsHat_White,	*,		10,		5
+		MedicalScrubsHat_Green,	*,		10,		5
+		Bandana_Polkapattern,	*,		10,		5
+		Bandana_Redpattern,		*,		10,		5
+		Bandana_Blackpattern,	*,		10,		5
+		Bandana_Greenpattern,	*,		10,		5
+		Bandana_Camopattern,	*,		10,		5
+		BaseballCap_CMMG_Pink,	*,		15,		10
+		BaseballCap_Pink,		*,		15,		10
+		BaseballCap_Red,		*,		15,		10
+		BaseballCap_Blue,		*,		15,		10
+		BaseballCap_Beige,		*,		15,		10
+		BaseballCap_CMMG_Black,	*,		15,		10
+		BaseballCap_Black,		*,		15,		10
+		BaseballCap_Olive,		*,		15,		10
+		BaseballCap_Camo,		*,		20,		15
+		PrisonerCap,			*,		20,		15
+		BoonieHat_Orange,		*,		20,		15
+		BoonieHat_Red,			*,		20,		15
+		BoonieHat_Blue,			*,		20,		15
+		BoonieHat_NavyBlue,		*,		20,		15
+		BoonieHat_Black,		*,		20,		15
+		BoonieHat_Tan,			*,		20,		15
+		BoonieHat_Olive,		*,		20,		15
+		BoonieHat_DPM,			*,		30,		20
+		BoonieHat_Dubok,		*,		30,		20
+		BoonieHat_Flecktran,	*,		30,		20
+		CowboyHat_Brown,		*,		30,		20
+		CowboyHat_darkBrown,	*,		30,		20
+		CowboyHat_black,		*,		30,		20
+		CowboyHat_green,		*,		30,		20
+		PilotkaCap,				*,		35,		25
+		OfficerHat,				*,		35,		25
+		PoliceCap,				*,		35,		25
+		MilitaryBeret_ChDKZ,	*,		35,		25
+		MilitaryBeret_Red,		*,		35,		25
+		MilitaryBeret_UN,		*,		35,		25
+		MilitaryBeret_CDF,		*,		35,		25
+		MilitaryBeret_NZ,		*,		35,		25
+		BeanieHat_Pink,			*,		30,		25
+		BeanieHat_Red,			*,		30,		25
+		BeanieHat_Blue,			*,		30,		25
+		BeanieHat_Grey,			*,		30,		25
+		BeanieHat_Beige,		*,		30,		25
+		BeanieHat_Brown,		*,		30,		25
+		BeanieHat_Black,		*,		30,		25
+		BeanieHat_Green,		*,		30,		25
+	    MSFCBeanieHatMulticam,	*,		30,		65
+		MSFCBeanieHatMulticamTropic, *, 30,	    65
+		MSFCBeanieHatSURPAT,	*,	    30,		65
+		MSFCBeanieHatMulticamBlack,	*,  30,		65
+		MSFCBeanieHatATACSFG,	*,		30,		65
+		FlatCap_Red,			*,		30,		25
+		FlatCap_Blue,			*,		30,		25
+		FlatCap_BrownCheck,		*,		30,		25
+		FlatCap_GreyCheck,		*,		30,		25
+		FlatCap_Grey,			*,		30,		25
+		FlatCap_Brown,			*,		30,		25
+		FlatCap_Black,			*,		30,		25
+		FlatCap_BlackCheck,		*,		30,		25
+		ZmijovkaCap_Red,		*,		40,		35
+		ZmijovkaCap_Blue,		*,		40,		35
+		ZmijovkaCap_Brown,		*,		40,		35
+		ZmijovkaCap_Black,		*,		40,		35
+		ZmijovkaCap_Green,		*,		40,		35
+		RadarCap_Red,			*,		40,		35
+		RadarCap_Blue,			*,		40,		35
+		RadarCap_Brown,			*,		40,		35
+		RadarCap_Black,			*,		40,		35
+		RadarCap_Green,			*,		45,		40
+		Ushanka_Blue,			*,		50,		45
+		Ushanka_Black,			*,		50,		45
+		Ushanka_Green,			*,		55,		50
+
+	<Category> Masks
+		SurgicalMask,			*,		15,		10
+		BandanaMask_PolkaPattern,*,		25,		15
+		BandanaMask_RedPattern,	*,		25,		15
+		BandanaMask_BlackPattern,*,		25,		15
+		BandanaMask_GreenPattern,*,		30,		20
+		BandanaMask_CamoPattern,*,		35,		20
+		NioshFaceMask,			*,		40,		30
+		HockeyMask,				*,		40,		30
+		//HoxtonMask,			*,		40,		30
+		//WolfMask,				*,		40,		30
+		//DallasMask,			*,		40,		30
+		Balaclava3Holes_Blue,	*,		50,		25
+		Balaclava3Holes_Beige,	*,		50,		25
+		Balaclava3Holes_Black,	*,		55,		30
+		Balaclava3Holes_Green,	*,		60,		30
+		WeldingMask,			*,		70,		35
+		GP5GasMask,				*,		120,	60
+
+	<Category> Skirts & Dresses
+		Skirt_Yellow,			*,		30,		10
+		Skirt_Red,				*,		30,		10
+		Skirt_Blue,				*,		30,		10
+		Skirt_White,			*,		30,		10
+		MiniDress_Pink,			*,		35,		10
+		MiniDress_PinkChecker,	*,		35,		10
+		MiniDress_RedChecker,	*,		35,		10
+		MiniDress_BlueChecker,	*,		35,		10
+		MiniDress_BlueWithDots,	*,		35,		10
+		MiniDress_WhiteChecker,	*,		35,		10
+		MiniDress_BrownChecker,	*,		35,		10
+		MiniDress_GreenChecker,	*,		35,		10
+		NurseDress_Blue,		*,		40,		10
+		NurseDress_White,		*,		40,		10
+
+	<Category> Patches
+		MSFC_HelmetPatch_MSFC,	        *,		800,		200
+        MSFC_HelmetPatch_RU,	        *,		800,		200
+        MSFC_HelmetPatch_BY,	        *,		800,		200
+        MSFC_HelmetPatch_UA,	        *,		800,		200
+        MSFC_HelmetPatch_DE,	        *,		800,		200
+        MSFC_HelmetPatch_US,	        *,		800,		200
+		MSFC_HelmetPatch_Chernarus,	    *,		800,		200
+		MSFC_HelmetPatch_FSB,	        *,		800,		200
+		MSFC_HelmetPatch_MAMA_IM_SPEC,	*,		800,		200
+		MSFC_HelmetPatch_MEDIC_EN,	    *,		800,		200
+		MSFC_HelmetPatch_MEDIC_RU,	    *,		800,		200
+		MSFC_HelmetPatch_MSFC_TEXT,	    *,		800,		200
+		MSFC_HelmetPatch_POEHAVSHY,	    *,		800,		200
+		MSFC_HelmetPatch_SBCH,	        *,		800,		200
+		MSFC_HelmetPatch_SOFA_ARMY_RF,	*,		800,		200
+		MSFC_HELMETPATCH_BENDER,	    *,		800,		200
+		MSFC_HelmetPatch_Afghanistan,	*,		800,		200
+		MSFC_HelmetPatch_Australia,	*,		800,		200
+		MSFC_HelmetPatch_Austria,	*,		800,		200
+		MSFC_HelmetPatch_Belgium,	*,		800,		200
+		MSFC_HelmetPatch_Canada,	*,		800,		200
+		MSFC_HelmetPatch_Croatia,	*,		800,		200
+		MSFC_HelmetPatch_Czech,	*,				800,		200
+		MSFC_HelmetPatch_DANGER,	*,		800,		200
+		MSFC_HelmetPatch_Denmark,	*,		800,		200
+		MSFC_HelmetPatch_Estonia,	*,		800,		200
+		MSFC_HelmetPatch_Finland,	*,		800,		200
+		MSFC_HelmetPatch_France,	*,		800,		200
+		MSFC_HelmetPatch_Greece,	*,		800,		200
+		MSFC_HelmetPatch_Hungary,	*,		800,		200
+		MSFC_HelmetPatch_Irland,	*,		800,		200
+		MSFC_HelmetPatch_Island,	*,		800,		200
+		MSFC_HelmetPatch_Israel,	*,		800,		200
+		MSFC_HelmetPatch_Italy,	*,		800,		200
+		MSFC_HelmetPatch_Japan,	*,		800,		200
+		MSFC_HelmetPatch_Netherlands,	*,		800,		200
+		MSFC_HelmetPatch_Norway,	*,		800,		200
+		MSFC_HelmetPatch_Poland,	*,		800,		200
+		MSFC_HelmetPatch_Portugal,	*,		800,		200
+		MSFC_HelmetPatch_Puerto,	*,		800,		200
+		MSFC_HelmetPatch_SA,	*,		800,		200
+		MSFC_HelmetPatch_Scotland,	*,		800,		200
+		MSFC_HelmetPatch_Sweden,	*,		800,		200
+		MSFC_HelmetPatch_Switzerland,*,		800,		200
+		MSFC_HelmetPatch_Thailand,	*,		800,		200
+		MSFC_HelmetPatch_Turkey,	*,		800,		200
+		MSFC_HelmetPatch_UK,	*,		800,		200
+		MSFC_HelmetPatch_UN,	*,		800,		200
+		MSFC_HelmetPatch_715,	*,		800,		200
+
+
+
+	<Category> Armbands
+		Armband_Pink,			*,		30,		15
+		Armband_Yellow,			*,		30,		15
+		Armband_Orange,			*,		30,		15
+		Armband_Red,			*,		30,		15
+		Armband_Blue,			*,		30,		15
+		Armband_White,			*,		30,		15
+		Armband_Black,			*,		30,		15
+		Armband_Green,			*,		30,		15
+		
+	//<Category> Seasonal
+		//SantasBeard,			*,		15,		0
+		//SantasHat,			*,		35,		0
+		//PumpkinHelmet,		*,		50,		0
 
 	<Category> Handmade
 		LeatherGloves_Beige,	*,		-1,	   300
