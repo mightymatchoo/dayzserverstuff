@@ -142,6 +142,7 @@
 		BloodTestKit,			*,		200,	50
 		FirstAidKit,			*,      500,	200
 		MSFC_FirstAidKit,	    *,		500,	150
+		ToxicCure,            *,        1000,        300
 		
 		
 	<Category> Medications
@@ -379,372 +380,6 @@
 		MSFC_SVD_Wooden,	   W,		7000,	3500
 		MSFC_Tigr308,	       W,		8000,	4000
 		
-	 <Category> AKM Other Colours	 
-		MSFC_AKM_Green,      	W,		4500,		2200
-		MSFC_AKM_SURPAT_Tan,	W,		4500,		2200
-		MSFC_AKM_Black,	        W,		4500,		2200
-		MSFC_AKM_White,	        W,		4500,		2200
-		MSFC_AKM_Gray,	        W,		4500,		2200
-		MSFC_AKM_Golden,	    W,		4500,		2200
-		MSFC_AKM_ATACS_FG,	    W,		4500,		2200
-		MSFC_AKM_HELL,	        W,		4500,		2200
-		MSFC_AKM_BLUE,	        W,		4500,		2200
-		MSFC_AKM_EMR,	        W,		4500,		2200
-		MSFC_AKM_Flecktarn,	    W,		4500,		2200
-		MSFC_AKM_HEX,	        W,		4500,		2200
-		MSFC_AKM_MARPAT_WD,	    W,		4500,		2200
-		MSFC_AKM_Multicam,	    W,		4500,		2200
-		MSFC_AKM_MulticamBlack,	W,		4500,		2200
-		MSFC_AKM_MulticamTropic,W,		4500,		2200
-		MSFC_AKM_SNAKE,	        W,		4500,		2200
-		MSFC_AKM_SNAKE_GREEN,	W,		4500,		2200
-		MSFC_AKM_SURPAT,	    W,		4500,		2200
-		MSFC_AKM_ViperWestern,	W,		4500,		2200
-		MSFC_AKM_WOODLAND,	    W,		4500,		2200
-		MSFC_AKM_ATACS_AU,      W,		4500,		2200
-		MSFC_AKM_ORANGE,	W,		4500,		2200
-		MSFC_AKM_RED,	        W,		4500,		2200
-		MSFC_AKM_DARK,	        W,		4500,		2200
-		MSFC_AKM_MATRIX,	W,		4500,		2200
-		MSFC_AKM_REDBLACKWHITE,	W,		4500,		2200
-		MSFC_AKM_Honeycomb,	W,		4500,		2200
-		MSFC_AKM_STAR,	        W,		4500,		2200
-     	MSFC_AKM_Kryptek_Banshee,	W,			4500,		2200
-	  	MSFC_AKM_Kryptek_Neptune,	W,		4500,		2200
-	  	MSFC_AKM_Kryptek_Typhon,	W,		4500,		2200
-	 	MSFC_AKM_Kryptek_Mandrake,W,			4500,		2200
-	 	MSFC_AKM_Kryptek_Wraith,	W,		4500,		2200
-		MSFC_AKM_Kryptek_Raid,	W,		4500,		2200
-	  
-     <Category> M4A1 Other colours	 
-	    MSFC_M4A1_White,	    W,		4000,	2050
-		MSFC_M4A1_ATACS_FG,	    W,		4000,	2050
-		MSFC_M4A1_SURPAT_TAN,	W,		4000,	2050
-		MSFC_M4A1_BLUE,	        W,		4000,	2050
-		MSFC_M4A1_EMR,	        W,		4000,	2050
-		MSFC_M4A1_Flecktarn,	W,		4000,	2050
-		MSFC_M4A1_HEX,	        W,		4000,	2050
-		MSFC_M4A1_MARPAT_WD,	W,		4000,	2050
-		MSFC_M4A1_Multicam,	    W,		4000,	2050
-		MSFC_M4A1_MulticamBlack,    W,		4000,	2050
-		MSFC_M4A1_MulticamTropic,	W,		4000,	2050
-		MSFC_M4A1_SNAKE,	    W,		4000,	2050
-		MSFC_M4A1_SNAKE_GREEN,	W,		4000,	2050
-		MSFC_M4A1_SURPAT,	    W,		4000,	2050
-		MSFC_M4A1_ViperWestern,	W,		4000,	2050
-		MSFC_M4A1_WOODLAND,	    W,		4000,	2050
-        MSFC_M4A1_ATACS_AU,	W,		4000,	2050
-		MSFC_M4A1_ORANGE,	    W,		4000,	2050
-		MSFC_M4A1_RED,	        W,		4000,	2050
-		MSFC_M4A1_DARK,      	W,		4000,	2050
-		MSFC_M4A1_MATRIX,	    W,		4000,	2050
-		MSFC_M4A1_REDBLACKWHITE,    W,		4000,	2050
-		MSFC_M4A1_Honeycomb,	W,		4000,	2050
-		MSFC_M4A1_STAR,	        W,		4000,	2050
-		MSFC_M4A1_Kryptek_Banshee,	W,		4000,	2050
-		MSFC_M4A1_Kryptek_Neptune,	W,		4000,	2050
-		MSFC_M4A1_Kryptek_Typhon,	W,		4000,	2050
-		MSFC_M4A1_Kryptek_Mandrake,W,		4000,	2050
-		MSFC_M4A1_Kryptek_Wraith,	W,		4000,	2050
-		MSFC_M4A1_Kryptek_Raid,	W,		4000,	2050
-	   
-	<Category> UMP Other colours	
-	    MSFC_UMP_WHITE,     	W,		1400,		600
-		MSFC_UMP_ATACS_AU,	    W,		1400,		600
-		MSFC_UMP_ATACS_FG,	    W,		1400,		600
-		MSFC_UMP_BLUE,	        W,	 	1400,		600
-		MSFC_UMP_EMR,	        W,		1400,		600
-		MSFC_UMP_Flecktarn,	    W,		1400,		600
-		MSFC_UMP_HEX,	        W,		1400,		600
-		MSFC_UMP_MARPAT_WD,  	W,		1400,		600
-		MSFC_UMP_MULTICAM,	    W,		1400,		600
-		MSFC_UMP_MULTICAM_BLACK,    W,		1400,		600
-		MSFC_UMP_MULTICAM_TROPIC,   W,		1400,		600
-		MSFC_UMP_SNAKE,	        W,		1400,		600
-		MSFC_UMP_SNAKE_GREEN,	W,		1400,		600
-		MSFC_UMP_SURPAT,	    W,		1400,		600
-		MSFC_UMP_VIPER_WESTERN,	W,		1400,		600
-		MSFC_UMP_Woodland,	    W,		1400,		600
-		MSFC_UMP_SURPAT_TAN,	W,		1400,		600
-		MSFC_UMP_ORANGE,	    W,		1400,		600
-		MSFC_UMP_RED,	        W,		1400,		600
-		MSFC_UMP_DARK,	        W,		1400,		600
-		MSFC_UMP_MATRIX,	    W,		1400,		600
-		MSFC_UMP_REDBLACKWHITE,	W,		1400,		600
-		MSFC_UMP_Honeycomb,  	W,		1400,		600
-		MSFC_UMP_STAR,	        W,		1400,		600
-		MSFC_UMP_Kryptek_Banshee,	W,		1400,		600
-		MSFC_UMP_Kryptek_Neptune,	W,		1400,		600
-		MSFC_UMP_Kryptek_Typhon,	W,		1400,		600
-		MSFC_UMP_Kryptek_Mandrake,	W,		1400,		600
-	 	MSFC_UMP_Kryptek_Wraith,	W,		1400,		600
-	 	MSFC_UMP_Kryptek_Raid,	    W,		1400,		600
-	
-	<Category> MP5K Other Colours 		
-		MSFC_MP5K_WHITE,	   W,		1200,	    500	
-		MSFC_MP5K_ATACS_AU,	   W,		1200,	    500	 
-		MSFC_MP5K_ATACS_FG,	   W,		1200,	    500	
-		MSFC_MP5K_BLUE,	       W,		1200,	    500	
-		MSFC_MP5K_EMR,	       W,		1200,	    500	
-		MSFC_MP5K_Flecktarn,   W,		1200,	    500	
-		MSFC_MP5K_HEX,	       W,		1200,	    500	
-		MSFC_MP5K_MARPAT_WD,   W,		1200,	    500		
-		MSFC_MP5K_MULTICAM_BLACK,  W,		1200,	    500	
-		MSFC_MP5K_MULTICAM_TROPIC, W,		1200,	    500	
-		MSFC_MP5K_SNAKE,	   W,		1200,	    500	
-		MSFC_MP5K_SNAKE_GREEN, W,		1200,	    500	
-		MSFC_MP5K_SURPAT,	   W,		1200,	    500	
-		MSFC_MP5K_VIPER_WESTERN,   W,		1200,	    500	
-		MSFC_MP5K_Woodland,	   W,		1200,	    500	
-		MSFC_MP5K_SURPAT_TAN,  W,		1200,	    500	
-		MSFC_MP5K_ORANGE,	   W,		1200,	    500	
-		MSFC_MP5K_RED,	       W,		1200,	    500	
-		MSFC_MP5K_DARK,    	   W,		1200,	    500	
-		MSFC_MP5K_MATRIX,	   W,		1200,	    500	
-		MSFC_MP5K_REDBLACKWHITE,   W,		1200,	    500	
-		MSFC_MP5K_Honeycomb,   W,		1200,	    500	
-		MSFC_MP5K_STAR,	       W,		1200,	    500	
-		
-	<Category> AKS74U Other Colours 		
-		MSFC_AKS74U_WHITE,	    W,		3500,	    1500
-		MSFC_AKS74U_ATACS_AU,	W,		3500,	    1500
-		MSFC_AKS74U_ATACS_FG,	W,		3500,	    1500
-		MSFC_AKS74U_BLUE,	    W,		3500,	    1500
-		MSFC_AKS74U_EMR,	    W,		3500,	    1500
-		MSFC_AKS74U_Flecktarn,	W,		3500,	    1500
-		MSFC_AKS74U_HEX,	    W,		3500,	    1500
-		MSFC_AKS74U_MARPAT_WD,	W,		3500,	    1500
-		MSFC_AKS74U_MULTICAM,	W,		3500,	    1500
-		MSFC_AKS74U_MULTICAM_BLACK,	W,		3500,	    1500
-		MSFC_AKS74U_MULTICAM_TROPIC,W,		3500,	    1500
-		MSFC_AKS74U_SNAKE,	    W,		3500,	    1500
-		MSFC_AKS74U_SNAKE_GREEN,    W,		3500,	    1500
-		MSFC_AKS74U_SURPAT,	    W,		3500,	    1500
-		MSFC_AKS74U_VIPER_WESTERN,	W,		3500,	    1500
-		MSFC_AKS74U_Woodland,	W,		3500,	    1500
-		MSFC_AKS74U_SURPAT_TAN,	W,		3500,	    1500
-		MSFC_AKS74U_ORANGE, 	W,		3500,	    1500
-		MSFC_AKS74U_RED,	    W,		3500,	    1500
-		MSFC_AKS74U_DARK,	    W,		3500,	    1500
-		MSFC_AKS74U_MATRIX,	    W,		3500,	    1500
-		MSFC_AKS74U_REDBLACKWHITE,	W,		3500,	    1500
-		MSFC_AKS74U_Honeycomb,	W,		3500,	    1500
-		MSFC_AKS74U_STAR,	    W,		3500,	    1500
-	
-    <Category> SKS Other Colours		  
-	  	MSFC_SKS_WHITE,	        W,		2700,	    1000
-		MSFC_SKS_ATACS_AU,	    W,		2700,	    1000
-		MSFC_SKS_ATACS_FG,	    W,		2700,	    1000
-		MSFC_SKS_BLUE,	        W,		2700,	    1000
-		MSFC_SKS_EMR,	        W,		2700,	    1000
-		MSFC_SKS_Flecktarn,	    W,		2700,	    1000
-		MSFC_SKS_HEX,	        W,		2700,	    1000
-		MSFC_SKS_MARPAT_WD,  	W,		2700,	    1000
-		MSFC_SKS_MULTICAM,	    W,		2700,	    1000
-		MSFC_SKS_MULTICAM_BLACK,	W,		2700,	    1000
-		MSFC_SKS_MULTICAM_TROPIC,	W,		2700,	    1000
-		MSFC_SKS_SNAKE,	        W,		2700,	    1000
-		MSFC_SKS_SNAKE_GREEN,	W,		2700,	    1000
-		MSFC_SKS_SURPAT,	    W,		2700,	    1000
-		MSFC_SKS_VIPER_WESTERN,	W,		2700,	    1000
-		MSFC_SKS_Woodland,	    W,		2700,	    1000
-		MSFC_SKS_SURPAT_TAN,	W,		2700,	    1000
-		MSFC_SKS_ORANGE,	    W,		2700,	    1000
-		MSFC_SKS_RED,	        W,		2700,	    1000
-		MSFC_SKS_DARK,	        W,		2700,	    1000
-		MSFC_SKS_MATRIX,	    W,		2700,	    1000
-		MSFC_SKS_REDBLACKWHITE,	W,		2700,	    1000
-		MSFC_SKS_Honeycomb,	    W,		2700,	    1000
-		MSFC_SKS_STAR,	        W,		2700,	    1000
-		
-	<Category> Mosin9130 Other Colours	    
-		MSFC_Mosin9130_WHITE,	W,		2000,	    1200
-		MSFC_Mosin9130_ATACS_AU,    W,		2000,	    1200
-		MSFC_Mosin9130_ATACS_FG,    W,		2000,	    1200
-		MSFC_Mosin9130_BLUE,	W,		2000,	    1200
-		MSFC_Mosin9130_EMR,	    W,		2000,	    1200
-		MSFC_Mosin9130_Flecktarn,	W,		2000,	    1200
-		MSFC_Mosin9130_HEX,	    W,		2000,	    1200
-		MSFC_Mosin9130_MARPAT_WD,	W,		2000,	    1200
-		MSFC_Mosin9130_MULTICAM,    W,		2000,	    1200
-		MSFC_Mosin9130_MULTICAM_BLACK, W,	2000,	    1200
-		MSFC_Mosin9130_MULTICAM_TROPIC,	W,	2000,	    1200
-		MSFC_Mosin9130_SNAKE,	W,		2000,	    1200
-		MSFC_Mosin9130_SNAKE_GREEN,	W,		2000,	    1200
-		MSFC_Mosin9130_SURPAT,	W,		2000,	    1200
-		MSFC_Mosin9130_VIPER_WESTERN,W,		2000,	    1200
-		MSFC_Mosin9130_Woodland,	W,		2000,	    1200
-		MSFC_Mosin9130_SURPAT_TAN,	W,		2000,	    1200
-		MSFC_Mosin9130_ORANGE,	W,		2000,	    1200
-		MSFC_Mosin9130_RED,	    W,		2000,	    1200
-		MSFC_Mosin9130_DARK,	W,		2000,	    1200
-		MSFC_Mosin9130_MATRIX,	W,		2000,	    1200
-		MSFC_Mosin9130_REDBLACKWHITE,W,		2000,	    1200
-		MSFC_Mosin9130_Honeycomb,   W,		2000,	    1200
-		MSFC_Mosin9130_STAR,	W,		2000,	    1200
-		
-	<Category>SawedoffMosin9130 Other Colours	
-		MSFC_SawedoffMosin9130_WHITE,	W,		1500,		300
-		MSFC_SawedoffMosin9130_ATACS_AU,W,		1500,		300
-		MSFC_SawedoffMosin9130_ATACS_FG,W,		1500,		300
-		MSFC_SawedoffMosin9130_BLUE,	W,		1500,		300
-		MSFC_SawedoffMosin9130_EMR,	W,		1500,		300
-		MSFC_SawedoffMosin9130_Flecktarn,	W,	1500,		300
-		MSFC_SawedoffMosin9130_HEX,	W,		1500,		300
-		MSFC_SawedoffMosin9130_MARPAT_WD,W,		1500,		300
-		MSFC_SawedoffMosin9130_MULTICAM, W,		1500,		300
-		MSFC_SawedoffMosin9130_MULTICAM_BLACK,W,1500,		300
-		MSFC_SawedoffMosin9130_MULTICAM_TROPIC,W,1500,		300
-		MSFC_SawedoffMosin9130_SNAKE,	W,		1500,		300
-		MSFC_SawedoffMosin9130_SNAKE_GREEN,	W,	1500,		300
-		MSFC_SawedoffMosin9130_SURPAT,	W,		1500,		300
-		MSFC_SawedoffMosin9130_VIPER_WESTERN,W,	1500,		300
-		MSFC_SawedoffMosin9130_Woodland,W,		1500,		300
-		MSFC_SawedoffMosin9130_SURPAT_TAN,W,	1500,		300
-		MSFC_SawedoffMosin9130_ORANGE,	W,		1500,		300
-		MSFC_SawedoffMosin9130_RED,	W,		    1500,		300
-		MSFC_SawedoffMosin9130_DARK,	W,		1500,		300
-		MSFC_SawedoffMosin9130_MATRIX,	W,		1500,		300
-		MSFC_SawedoffMosin9130_REDBLACKWHITE,W,	1500,		300
-		MSFC_SawedoffMosin9130_Honeycomb,W,		1500,		300
-		MSFC_SawedoffMosin9130_STAR,	W,		1500,		300
-	
-	<Category> SVD Other Colours	
-	    MSFC_SVD_WHITE,	           W,		7000,		3600
-		MSFC_SVD_ATACS_AU,	       W,		7000,		3600
-		MSFC_SVD_ATACS_FG,         W,		7000,		3600
-		MSFC_SVD_BLUE,	           W,		7000,		3600
-		MSFC_SVD_EMR,	           W,		7000,		3600
-		MSFC_SVD_Flecktarn,	       W,		7000,		3600
-		MSFC_SVD_HEX,	           W,		7000,		3600
-		MSFC_SVD_MARPAT_WD,	       W,		7000,		3600
-		MSFC_SVD_MULTICAM,	       W,		7000,		3600
-		MSFC_SVD_MULTICAM_BLACK,   W,		7000,		3600
-		MSFC_SVD_MULTICAM_TROPIC,  W,		7000,		3600
-		MSFC_SVD_SNAKE,	           W,		7000,		3600
-		MSFC_SVD_SNAKE_GREEN,	   W,		7000,		3600
-		MSFC_SVD_SURPAT,	       W,		7000,		3600
-		MSFC_SVD_VIPER_WESTERN,	   W,		7000,		3600
-		MSFC_SVD_Woodland,	       W,		7000,		3600
-		MSFC_SVD_SURPAT_TAN,	   W,		7000,		3600
-		MSFC_SVD_ORANGE,	       W,		7000,		3600
-		MSFC_SVD_RED,	           W,		7000,		3600
-		MSFC_SVD_DARK,	           W,		7000,		3600
-		MSFC_SVD_MATRIX,	       W,		7000,		3600
-		MSFC_SVD_REDBLACKWHITE,	   W,		7000,		3600
-		MSFC_SVD_Honeycomb,	       W,		7000,		3600
-		MSFC_SVD_STAR,	           W,		7000,		3600
-	   	MSFC_SVD_Kryptek_Banshee,   W,		7000,		3600
-	  	MSFC_SVD_Kryptek_Neptune,   W,		7000,		3600
-	 	MSFC_SVD_Kryptek_Typhon,	   W,		7000,		3600
-	 	MSFC_SVD_Kryptek_Mandrake,  W,		7000,		3600
-	  	MSFC_SVD_Kryptek_Wraith,	   W,		7000,		3600
-	  	MSFC_SVD_Kryptek_Raid,	   W,		7000,		3600
-		
-	<Category> Winchester70 Other colours 		
-		MSFC_Winchester70_WHITE,	  W,		2000,	    1200
-		MSFC_Winchester70_ATACS_AU,	  W,		2000,	    1200
-		MSFC_Winchester70_ATACS_FG,   W,		2000,	    1200
-		MSFC_Winchester70_BLUE,	      W,		2000,	    1200
-		MSFC_Winchester70_EMR,	      W,		2000,	    1200
-		MSFC_Winchester70_Flecktarn,  W,		2000,	    1200
-		MSFC_Winchester70_HEX,	      W,		2000,	    1200
-		MSFC_Winchester70_MARPAT_WD,  W,		2000,	    1200
-		MSFC_Winchester70_MULTICAM,	  W,		2000,	    1200
-		MSFC_Winchester70_MULTICAM_BLACK,W,		2000,	    1200
-		MSFC_Winchester70_MULTICAM_TROPIC,W,	2000,	    1200
-		MSFC_Winchester70_SNAKE,	  W,		2000,	    1200
-		MSFC_Winchester70_SNAKE_GREEN,W,		2000,	    1200
-		MSFC_Winchester70_SURPAT,	  W,		2000,	    1200
-		MSFC_Winchester70_VIPER_WESTERN,W,		2000,	    1200
-		MSFC_Winchester70_Woodland,	  W,		2000,	    1200
-		MSFC_Winchester70_SURPAT_TAN, W,		2000,	    1200
-		MSFC_Winchester70_ORANGE,	  W,		2000,	    1200
-		MSFC_Winchester70_RED,	      W,		2000,	    1200
-		MSFC_Winchester70_DARK,	      W,		2000,	    1200
-		MSFC_Winchester70_MATRIX,	  W,		2000,	    1200
-		MSFC_Winchester70_REDBLACKWHITE,W,		2000,	    1200
-		MSFC_Winchester70_Honeycomb,  W,		2000,	    1200
-		MSFC_Winchester70_STAR,	      W,		2000,	    1200
-	
-	<Category> CZ527 Other Colours
-		MSFC_CZ527_WHITE,	          W,		2000,	    1000
-		MSFC_CZ527_ATACS_AU,	      W,		2000,	    1000
-		MSFC_CZ527_ATACS_FG,	      W,		2000,	    1000
-		MSFC_CZ527_BLUE,	          W,		2000,	    1000
-		MSFC_CZ527_EMR,	              W,		2000,	    1000
-		MSFC_CZ527_Flecktarn,	      W,		2000,	    1000
-		MSFC_CZ527_HEX,	              W,		2000,	    1000
-		MSFC_CZ527_MARPAT_WD,	      W,		2000,	    1000
-		MSFC_CZ527_MULTICAM,	      W,		2000,	    1000
-		MSFC_CZ527_MULTICAM_BLACK,	  W,		2000,	    1000
-		MSFC_CZ527_MULTICAM_TROPIC,	  W,		2000,	    1000
-		MSFC_CZ527_SNAKE,	          W,		2000,	    1000
-		MSFC_CZ527_SNAKE_GREEN,       W,		2000,	    1000
-		MSFC_CZ527_SURPAT,	          W,		2000,	    1000
-		MSFC_CZ527_VIPER_WESTERN,	  W,		2000,	    1000
-		MSFC_CZ527_Woodland,	      W,		2000,	    1000
-		MSFC_CZ527_SURPAT_TAN,	      W,		2000,	    1000
-		MSFC_CZ527_ORANGE,	          W,		2000,	    1000
-		MSFC_CZ527_RED,	              W,		2000,	    1000
-		MSFC_CZ527_DARK,	          W,		2000,	    1000
-		MSFC_CZ527_MATRIX,	          W,		2000,	    1000
-		MSFC_CZ527_REDBLACKWHITE,	  W,		2000,	    1000
-		MSFC_CZ527_Honeycomb,	      W,		2000,	    1000
-		MSFC_CZ527_STAR,	          W,		2000,	    1000
-	
-	<Category> AK74 Other Colours 
-		MSFC_AK74_WHITE,	         W,		5000,		2500
-        MSFC_AK74_ATACS_AU,	     W,		5000,		2500
-        MSFC_AK74_ATACS_FG,      W,		5000,		2500
-        MSFC_AK74_BLUE,	         W,		5000,		2500
-        MSFC_AK74_EMR,	         W,		5000,		2500
-        MSFC_AK74_Flecktarn,	 W,		5000,		2500
-        MSFC_AK74_HEX,	         W,		5000,		2500
-        MSFC_AK74_MARPAT_WD,	 W,		5000,		2500
-        MSFC_AK74_MULTICAM,	     W,		5000,		2500
-        MSFC_AK74_MULTICAM_BLACK, W,		5000,		2500
-        MSFC_AK74_MULTICAM_TROPIC,W,		5000,		2500
-        MSFC_AK74_SNAKE,	     W,		5000,		2500
-        MSFC_AK74_SNAKE_GREEN,	 W,		5000,		2500
-        MSFC_AK74_SURPAT,	     W,		5000,		2500
-        MSFC_AK74_VIPER_WESTERN, W,		5000,		2500
-        MSFC_AK74_Woodland,	     W,		5000,		2500
-        MSFC_AK74_SURPAT_TAN,	 W,		5000,		2500
-        MSFC_AK74_ORANGE,	     W,		5000,		2500
-        MSFC_AK74_RED,	         W,		5000,		2500
-        MSFC_AK74_DARK,	         W,		5000,		2500
-        MSFC_AK74_MATRIX,	     W,		5000,		2500
-        MSFC_AK74_REDBLACKWHITE, W,		5000,		2500
-        MSFC_AK74_Honeycomb,	 W,		5000,		2500
-        MSFC_AK74_STAR,	         W,		5000,		2500	
-		
-	<Category>AK101 Other Colours	
-    	MSFC_AK101_WHITE,	        W,		5000,		2500
-        MSFC_AK101_ATACS_AU,	W,		5000,		2500
-        MSFC_AK101_ATACS_FG,	W,		5000,		2500
-        MSFC_AK101_BLUE,	    W,		5000,		2500
-        MSFC_AK101_EMR,	        W,		5000,		2500
-        MSFC_AK101_Flecktarn,	W,		5000,		2500
-        MSFC_AK101_HEX,	        W,		5000,		2500
-        MSFC_AK101_MARPAT_WD,	W,		5000,		2500
-        MSFC_AK101_MULTICAM,	W,		5000,		2500
-     	MSFC_AK101_MULTICAM_BLACK,	W,		5000,		2500
-    	MSFC_AK101_MULTICAM_TROPIC,	W,		5000,		2500
-        MSFC_AK101_SNAKE,	    W,		5000,		2500
-        MSFC_AK101_SNAKE_GREEN,	W,		5000,		2500
-        MSFC_AK101_SURPAT,	    W,		5000,		2500
-      	MSFC_AK101_VIPER_WESTERN,	W,		5000,		2500
-        MSFC_AK101_Woodland,	W,		5000,		2500
-        MSFC_AK101_SURPAT_TAN,	W,		5000,		2500
-        MSFC_AK101_ORANGE,	W,		5000,		2500
-        MSFC_AK101_RED,	W,		5000,		2500
-    	MSFC_AK101_DARK,	W,		5000,		2500
-        MSFC_AK101_MATRIX,	W,		5000,		2500
-      	MSFC_AK101_REDBLACKWHITE,	W,		5000,		2500
-        MSFC_AK101_Honeycomb,	W,		5000,		2500
-        MSFC_AK101_STAR,	W,		5000,		2500	
-		
 	<Category> Grenades
 		M18SmokeGrenade_Red,	1,		700,	300
 		M18SmokeGrenade_Green,	1,		700,	300
@@ -755,7 +390,13 @@
 		RDG2SmokeGrenade_White,	1,		700,	300
 		FlashGrenade,			1,		800,	300
 		RGD5Grenade,			1,		1200,	350
-		M67Grenade,				1,		1200,	350
+		M67Grenade,				1,		1200,	350		
+		ToxicM18SmokeGrenade_Green,    *,        1500,        500
+        ToxicM18SmokeGrenade_Red,    *,        1500,        500
+        ToxicM18SmokeGrenade_Green,    *,        1500,        500
+        ToxicM18SmokeGrenade_Purple,    *,        1500,        500
+        ToxicM18SmokeGrenade_Yellow,    *,        1500,        500
+        ToxicM18SmokeGrenade_White,    *,        1500,        500
 		
 
 		
@@ -1245,12 +886,12 @@
 		MSFCBeanieHatMulticamTropic,	*,		100,		65
 		MSFCBoonieHatMulticamTropic,	*,		100,		65
 		MSFCCapMulticamTropic,	*,		        100,		65
-		MSFCNBCGlovesMulticamTropic,	*,		200,		100
+
         MSFC_TacticalCap_MulticamTropic,	*,	200,		100
 		MSFCGlovesMulticamTropic,	*,		200,		100
         MSFC_BottlePouch_Multicam,	*,		200,		100
 		MSFC_TacticalCap_Multicam,	*,		200,		100
-        MSFCNBCBootsMulticam,	*,		        200,		100
+
         MSFCGorkaPMulticam,	*,		        200,		100
         MSFC_BottlePouch_MulticamTropic,	*,	200,		100
         MSFCGlovesMulticam,	*,		        250,		150
@@ -1260,7 +901,7 @@
         MSFCBootsLowaMulticamTropic,	*,		250,		200
         MSFCBandanaMulticamTropic,	*,		350,		150
         MSFCBandanaMulticamTropicMask,	*,		350,		150
-        MSFCNBCPantsMulticamTropic,	*,		350,		150
+
         MSFCTShirtMulticamTropic,	*,		300,		200
         MSFCSweaterMulticamTropic,	*,		300,		200
         MSFCSweaterMulticam,	*,		        300,		200
@@ -1281,7 +922,7 @@
         MSFC_SMALL_BACKPACK_MulticamTropic,	*,      400,		250
         MSFCSmershBagMedicMulticam,	*,		400,		250	
 		MSFC_SMALL_BACKPACK_Multicam,	*,		400,		250		
-        MSFCNBCJacketMulticamTropic,	*,		450,		250
+
         MSFCTacticalMaskMulticamTropic,	*,		450,		250
         MSFCAssaultBagMulticamTropic,	*,		450,		350
 		MSFCAssaultBagMulticamTropicMedic,	*,	450,		350
@@ -1363,8 +1004,7 @@
 		MSFCCapSURPAT,	*,		                100,		65 
 		MSFCBeanieHatSURPAT,	*,		        100,		65
 		MSFCBoonieHatSURPAT,	*,		        100,		65
-	    MSFCNBCGlovesSURPAT,	*,		        150,		100
-		MSFCNBCBootsSURPAT,	*,		        200,		100
+
 		MSFC_BottlePouch_SURPAT,	*,		200,		100
 		MSFC_TacticalCap_SURPAT,	*,		200,		100
 		MSFCGlovesSURPAT,	*,		        200,		100
@@ -1379,7 +1019,7 @@
 		MSFCGorkaPSURPAT,	*,		        350,		200
 		MSFCBandanaSURPAT,	*,		        350,		150
 		MSFCBandanaSURPATMask,	*,		        350,		150
-		MSFCNBCPantsSURPAT,	*,		        350,		150
+
 		MSFC_G3Pants_SURPAT,	*,		        350,		200	
 		MSFCSURPATMask,	*,		                400,		150
 		MSFCSmershBagSURPAT,	*,		        400,		250
@@ -1389,7 +1029,7 @@
 		MSFC_SMALL_BACKPACK_SURPAT,	*,		400,		250
 		MSFCAssaultBagSURPAT,	*,		        450,		350
 		MSFCAssaultBagSURPATMedic,	*,		450,		65
-		MSFCNBCJacketSURPAT,	*,		        450,		250
+
 		MSFCTacticalMaskSURPAT,	*,		        450,		250
 		MSFCHoodSURPAT,	*,		                500,		250
 		MSFCPlateHolsterSURPAT,	*,		        500,		250
@@ -1907,10 +1547,10 @@
 		MSFCBandanaMulticamBlack,	*,		        100,		65
 		MSFCBandanaMulticamBlackMask,	*,	        100,		65
 		MSFCGlovesMulticamBlack,	*,		        200,		100
-		MSFCNBCGlovesMulticamBlack,	*,		        200,		100
+
 	    MSFC_BottlePouch_MulticamBlack,	*,	        200,		100
 		MSFCSweaterMulticamBlack,	*,		        250,		100
-		MSFCNBCBootsMulticamBlack,	*,		        250,		100
+
 		MSFCBootsLowaMulticamBlack,	*,		        250,		100
 		MSFCBootsTrekkingMulticamBlack,	*,	        250,		100
 		MSFCLowaZephyrBootsMulticamBlack,*,	        200,		150
@@ -1918,7 +1558,7 @@
 		MSFCBootsMulticamBlack,	*,		            300,		100
 	    MSFCPlateHolsterMulticamBlack,	*,	        300,		150
 	    MSFC_G3Pants_MulticamBlack,	*,		        350,		150
-		MSFCNBCPantsMulticamBlack,	*,		        350,		150
+
 	    MSFCPCU5MulticamBlackNoPatch,	*,	        350,		150
         MSFCAssaultBagMulticamBlackMedic,*,	        350,		150
 	    MSFCGorkaJMulticamBlackNoPatch,	*,	        350,		150
@@ -1927,7 +1567,7 @@
 	    MSFCSmershBagMedicMulticamBlack,*,	        450,		200	
 	    MSFCSmershBagMedicMulticamBlack,*,	        450,		200	
 	    MSFCAssaultBagMulticamBlack,	*,	        450,		350
-	  	MSFCNBCJacketMulticamBlack,	*,		        450,		250
+
         MSFC_IFAK_MulticamBlack,	*,		        500,		150
 	    MSFCGorkaJMulticamBlack,	*,		        500,		200
 		MSFCGorkaPMulticamBlack,	*,		        500,		200
@@ -1983,17 +1623,17 @@
 		MSFCBandanaATACSFG,	*,		        100,		65
 		MSFCBandanaATACSFGMask,	*,		    100,		65
 		MSFCGlovesATACSFG,	*,		        200,		100
-		MSFCNBCGlovesATACSFG,	*,		    200,		100
+
 		MSFCLowaZephyrBootsATACSFG,	*,		200,		100
 		MSFC_BottlePouch_ATACSFG,	*,		200,		100
 		MSFCBootsLowaATACSFG,	*,	     	200,		150
 		MSFCBootsTrekkingATACSFG,	*,		200,		150
-		MSFCNBCBootsATACSFG,	*,		    250,		100
+
 		MSFCSweaterATACSFG,	*,		        250,		100
 	    MSFCEmpty_Mags_Bag_ATACSFG,	*,		300,		100
 		MSFCBootsATACSFG,	*,		        300,		100
 		MSFCPlateHolsterATACSFG,	*,		300,		150
-		MSFCNBCPantsATACSFG,	*,		    350,		150
+
 		MSFCAssaultBagATACSFGMedic,	*,		350,		150
 		MSFCPCU5ATACSFGNoPatch,	*,		    350,		150
 		MSFCGorkaJATACSFGNoPatch,	*,		350,		150
@@ -2002,7 +1642,7 @@
 		MSFC_SMALL_BACKPACK_ATACSFG,	*,	400,		200
 		MSFCSmershBagMedicATACSFG,	*,		450,		200
 		MSFCAssaultBagATACSFG,	*,		    450,		350
-		MSFCNBCJacketATACSFG,	*,		    450,		250
+
 		MSFCTacticalMaskATACSFG,	*,		500,		200
 		MSFC_IFAK_ATACSFG,	*,		        500,		200
 		MSFCGorkaJATACSFG,	*,		        500,		200
@@ -2227,7 +1867,7 @@
 		MSFCSTALKEREcologGloves,	*,	35,		30
 		OMNOGloves_Gray,		*,		40,		35
 		OMNOGloves_Brown,		*,		40,		35
-		NBCGlovesGray,			*,		65,		50
+
 
 	<Category> Hats & Caps
 		MedicalScrubsHat_Blue,	*,		10,		5
@@ -2304,7 +1944,7 @@
 		Ushanka_Blue,			*,		50,		45
 		Ushanka_Black,			*,		50,		45
 		Ushanka_Green,			*,		55,		50
-		NBCHoodGray,			*,		100,	95
+
 
 	<Category> Helmets
 		ConstructionHelmet_Yellow,*,	30,	    25
@@ -2527,7 +2167,7 @@
 		GorkaEJacket_Summer,	*,		140,	90
 		USMCJacket_Desert,		*,		140,	90
 		USMCJacket_Woodland,	*,		155,	100
-		NBCJacketGray,			*,		250,	120
+
 
 	<Category> Skirts & Dresses
 		Skirt_Yellow,			*,		30,		10
@@ -2624,7 +2264,7 @@
 		GorkaPants_PautRev,		*,		130,	70
 		GorkaPants_Autumn,		*,		130,	70
 		GorkaPants_Summer,		*,		130,	70
-		NBCPantsGray,			*,		200,	100
+
 	
 	<Category> Shoes & Boots
 		AthleticShoes_Blue,		*,		15,	   10
@@ -2678,7 +2318,7 @@
 		MilitaryBoots_Beige,	*,		110,   50
 		MilitaryBoots_Brown,	*,		110,   50
 		MilitaryBoots_Black,	*,		110,   50
-		NBCBootsGray,			*,		150,   80
+
 
 		
 	//<Category> Seasonal
@@ -2843,6 +2483,24 @@
 		bonehatchet,            *,               -1,    350
 		StoneShovel,            *,               -1,    400
 	
+	<Category> NBC & Toxic Zone Clothing
+
+        ToxicZoneGP5GasMask_black,    *,        1000,        300
+        ToxicZoneSuits_Hood_black,    *,        1000,        300
+        ToxicZoneSuits_Hood_yellow,    *,        1000,        300
+        ToxicZoneSuits_Gloves_black,    ,        1000,        300
+        ToxicZoneSuits_Gloves_yellow,,        1000,        300
+        ToxicZoneSuits_Jacket_yellow,*,        1000,        300
+        ToxicZoneSuits_Jacket_black,    *,        1000,        300
+        ToxicZoneSuits_Pants_yellow,    *,        1000,        300
+        ToxicZoneSuits_Pants_black,    *,        1000,        300
+        ToxicZoneSuits_Boots_yellow,    *,        1000,        300
+        ToxicZoneSuits_Boots_black,    *,        1000,        300
+		NBCGlovesGray,			*,		65,		50
+        NBCHoodGray,			*,		100,	95
+        NBCJacketGray,			*,		250,	120
+        NBCPantsGray,			*,		200,	100
+        NBCBootsGray,			*,		150,   80
 	
 	 
 <Trader> Vehicles Trader
