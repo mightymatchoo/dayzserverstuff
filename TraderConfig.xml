@@ -142,6 +142,7 @@
 		BloodTestKit,			*,		200,	50
 		FirstAidKit,			*,      500,	200
 		MSFC_FirstAidKit,	    *,		500,	150
+		ToxicCure,            *,        1000,        300
 		
 		
 	<Category> Medications
@@ -756,6 +757,12 @@
 		FlashGrenade,			1,		800,	300
 		RGD5Grenade,			1,		1200,	350
 		M67Grenade,				1,		1200,	350
+		ToxicM18SmokeGrenade_Green,    *,        1500,        500
+        ToxicM18SmokeGrenade_Red,    *,        1500,        500
+        ToxicM18SmokeGrenade_Green,    *,        1500,        500
+        ToxicM18SmokeGrenade_Purple,    *,        1500,        500
+        ToxicM18SmokeGrenade_Yellow,    *,        1500,        500
+        ToxicM18SmokeGrenade_White,    *,        1500,        500
 		
 
 		
@@ -2835,28 +2842,23 @@
 		bonehatchet,            *,               -1,    350
 		StoneShovel,            *,               -1,    400
 
-	<Category> NBC Clothing
-		MSFCNBCGlovesMulticamTropic,	*,		200,		100
-		MSFCNBCBootsMulticam,	*,		        200,		100
-		MSFCNBCPantsMulticamTropic,	*,		350,		150
-		MSFCNBCJacketMulticamTropic,	*,		450,		250
- 		MSFCNBCGlovesSURPAT,	*,		        150,		100
-		MSFCNBCBootsSURPAT,	*,		        200,		100
-        MSFCNBCPantsSURPAT,	*,		        350,		150
-        MSFCNBCJacketSURPAT,	*,		        450,		250
-        MSFCNBCGlovesMulticamBlack,	*,		        200,		100
-        MSFCNBCBootsMulticamBlack,	*,		        250,		100
-        MSFCNBCPantsMulticamBlack,	*,		        350,		150
-        MSFCNBCJacketMulticamBlack,	*,		        450,		250
-        MSFCNBCGlovesATACSFG,	*,		    200,		100
-        MSFCNBCBootsATACSFG,	*,		    250,		100
-        MSFCNBCPantsATACSFG,	*,		    350,		150
-        MSFCNBCJacketATACSFG,	*,		    450,		250
+	<Category> NBC & Toxic Zone Clothing
         NBCGlovesGray,			*,		65,		50
         NBCHoodGray,			*,		100,	95
         NBCJacketGray,			*,		250,	120
         NBCPantsGray,			*,		200,	100
         NBCBootsGray,			*,		150,   80
+		ToxicZoneGP5GasMask_black,    *,        1000,        300
+        ToxicZoneSuits_Hood_black,    *,        1000,        300
+        ToxicZoneSuits_Hood_yellow,    *,        1000,        300
+        ToxicZoneSuits_Gloves_black,    ,        1000,        300
+        ToxicZoneSuits_Gloves_yellow,,        1000,        300
+        ToxicZoneSuits_Jacket_yellow,*,        1000,        300
+        ToxicZoneSuits_Jacket_black,    *,        1000,        300
+        ToxicZoneSuits_Pants_yellow,    *,        1000,        300
+        ToxicZoneSuits_Pants_black,    *,        1000,        300
+        ToxicZoneSuits_Boots_yellow,    *,        1000,        300
+        ToxicZoneSuits_Boots_black,    *,        1000,        300
 	
 	
 	 
