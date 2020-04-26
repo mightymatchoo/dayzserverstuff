@@ -1,0 +1,48 @@
+
+       <Category> Pelts
+        
+      RabbitPelt,             *,      500,            400  
+      PigPelt,                *,      750,            600
+      GoatPelt,               *,      700,            600
+      SheepPelt,              *,      700,            600
+      MouflonPelt,            *,      700,            600
+	  WildboarPelt,           *,      700,            600
+      FoxPelt,                *,      700,            600
+	  CowPelt,                *,      1000,           800
+	  DeerPelt,               *,      1300,           1000
+	  WolfPelt,               *,      1500,           1300
+	  BearPelt,               *,      2000,           1700
+		
+	<Category> Drinks
+   	    MSFCBeerBaltika9,	        *,		25,		10
+		MSFCBeerZhigulevskoeSoviet,	*,		25,		10
+		MSFCBeerZhigulevskoeBarnoe,	*,		25,		10
+		MSFCBankaSPRUNKextreme,	    *,		25,		10
+		MSFCBankaSPRUNK,	        *,		25,		10
+		MSFCBankaCJ,	            *,		25,		10
+		MSFCBankaSTALKEREnergy,	    *,		25,		10
+		MSFCBankaBeerFranziskanerWeissbier,*,25,	10
+		MSFCBankaBeerHeineken,	    *,		25,		10
+		MSFCBankaBaikal,	        *,		25,		10
+		MSFCBankaBeerPivasProvodnik,*,	    25,		10
+		MSFCBankaBeerAmsterdam,	*,		    25,		10
+		SodaCan_Cola, 			*,		    25, 	10
+		SodaCan_Kvass, 			*,	    	25, 	10
+		SodaCan_Pipsi, 			*,	    	25,     10
+		MSFCBeerZhigulevskoe,	*,	    	25,		10
+		SodaCan_Spite, 			*,	    	25, 	10
+		MSFCBankaJackSmithWhiskey,	*,	    25,		10
+		WaterBottle,			*,		    35,     10
+		Vodka,					*,	        35,	    10
+	    Canteen,				    *,      50,	    10
+	    MSFCCanteenATACSAU,	*,		        50,		25
+	    MSFCCanteenATACSFG,	*,		        50,	    25
+        MSFCCanteenSURPATDesert,	*,	    50, 	25
+     	MSFCCanteenSURPAT,	*,		        50, 	25
+	    MSFCCanteenMulticamBlack,	*,	    50,	    25
+	    MSFCCanteenMulticamTropic,	*,	    50,  	25
+	    MSFCCanteenMulticam,	    *,		50,	    25
+		MSFCCanteenDesert,	    *,		    50,	    25
+		MSFCCanteenGreen,	    *,		    50,	    25
+		MSFCCanteenBlack,	    *,		    50,	    25
+	
